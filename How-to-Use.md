@@ -25,7 +25,7 @@ You can also set the configuration like `seed`, `width`, `height`, `num_outputs`
 
 Use the same `seed` number to get the same image for a certain prompt. This is useful for refining a prompt without losing the basic image design. Enable the `random images` checkbox to get random images.
 
-![Screenshot of advanced settings](https://github.com/cmdr2/stable-diffusion-ui/raw/main/media/config-v6.jpg?raw=true)
+![Screenshot of advanced settings](https://github.com/cmdr2/stable-diffusion-ui/raw/main/media/config-v7.jpg?raw=true)
 
 # System Settings
 The system settings are reachable via the cogwheel symbol on the top right. It can be used to configure whether all generated images should 
