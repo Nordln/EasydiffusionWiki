@@ -19,6 +19,16 @@ You can use Face Correction or Upscaling to improve the image further.
 
 **Another tip:** Images with the same aspect ratio of your generated image work best. E.g. 1:1 if you're generating images sized 512x512.
 
+## Samplers
+
+Here is a rough overview of the behaviors of different sampler implementations:
+
+![samplers](https://user-images.githubusercontent.com/683528/194741816-1291abdd-caac-4fc2-ac97-dd88513d8b6e.jpg)
+
+Most samplers are deterministic. If re-run with the same seed and settings, it will generate the same image. You can also increase the step size to see if artifacts in the image clear up, but it may be a slightly different image.
+
+Note that `euler_a` and `dpm2_a` are *not always* deterministic. They can create different images when run in different batch sizes.
+
 ## Problems? Troubleshooting
 Please try the common [troubleshooting](Troubleshooting.md) steps. If that doesn't fix it, please ask on the [discord server](https://discord.com/invite/u9yhsFmEkB), or [file an issue](https://github.com/cmdr2/stable-diffusion-ui/issues).
 
