@@ -68,19 +68,13 @@ This will give you an activated conda environment in the terminal, so you can ru
 Users don't need to have the Anaconda Prompt installed to do this anymore, since the installer bundles a portable version of conda inside it. Just follow these steps.
 
 **Windows:**
-1. Open the terminal: Press Win+R, type "cmd", and press "Run"
-2. Type `cd C:\stable-diffusion-ui` and press enter (or wherever you've installed it)
-3. Type `installer\Scripts\activate.bat` and press enter
-4. Type `cd stable-diffusion` and press enter
-5. Type `conda activate .\env` and press enter
-6. Type `python --version` and press enter. You should see 3.8.5.
+1. Run the `Developer Console.cmd` file (inside the project folder) by double-clicking it.
+2. Type `python --version` and press enter. You should see 3.8.5.
 
 **Linux:**
 1. Open the terminal
 2. Type `cd /path/to/stable-diffusion-ui` and press enter
-3. Type `installer/bin/activate` and press enter
-4. Type `cd stable-diffusion` and press enter
-5. Type `conda activate ./env` and press enter
-6. Type `python --version` and press enter. You should see 3.8.5.
+3. Type `./developer_console.sh` and press enter
+4. Type `python --version` and press enter. You should see 3.8.5.
 
-This will give you an activated conda environment. To confirm, type `python --version` and press enter. You should see 3.8.5.
+This will give you an activated conda environment. You can now run conda or pip commands to install or change packages.
