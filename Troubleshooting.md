@@ -14,6 +14,9 @@ This can be due to a Firewall/Antivirus/Proxy/VPN blocking your network connecti
 
 Another solution is to switch to Google's DNS server: https://developers.google.com/speed/public-dns/docs/using#windows or Cloudflare's DNS server: https://developers.cloudflare.com/1.1.1.1/setup/windows/
 
+## 'conda-unpack' is not recognized as an internal or external command
+Please try copying the `stable-diffusion-ui` folder inside the zip file and paste that in `C:` (or any other drive). Don't extract the zip file, instead try copying the folder from inside it and paste it in the target drive.
+
 ## basicsr module not found
 For Windows: Please download and extract basicsr from [here](https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/basicsr-win64.zip), and place the `basicsr` folder inside the `stable-diffusion-ui\stable-diffusion\env\lib\site-packages` folder. Then run the `Start Stable Diffusion UI.cmd` file again.
 
