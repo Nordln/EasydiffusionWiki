@@ -3,10 +3,41 @@ This page needs to be rewritten completely.
 # Usage
 Open http://localhost:9000 in your browser (after running step 3 previously). It may take a few moments for the back-end to be ready.
 
-## With a text description
+## Create an image from a text description
+![image](https://user-images.githubusercontent.com/5852422/196790628-2f053c6b-299a-4149-8c8a-8edd0eb08998.png)
 1. Enter a text prompt, like `a photograph of an astronaut riding a horse` in the textbox.
-2. Press `Make Image`. This will take some time, depending on your system's processing power.
-3. See the image generated using your prompt.
+2. Press `Make Image`. This creates a rendering job:
+
+    ![image](https://user-images.githubusercontent.com/5852422/196795165-e2919bd4-a026-4563-8d3d-ef13004d5163.png)
+
+    The gereration of the image will take some time, depending on your system's processing power. A preview of the result 
+    will be shown during the rendering. The first preview will look like random noise:
+
+    ![image](https://user-images.githubusercontent.com/5852422/196791880-4ad7dd35-de12-47ba-a5d6-d7a60261ca21.png)
+
+    When you wait a little bit, the image will improve step by step.
+
+3. See the image generated using your prompt:
+
+    ![image](https://user-images.githubusercontent.com/5852422/196791962-e6ff59d5-87cb-4dd5-a8d0-de89c8646484.png)
+    
+    Your image will look different because it used a different random start value (called _seed_).
+
+## Prompt Tips
+* You can enqueue multiple jobs. They are processed one by one. You don't need to wait until the first job is finished.
+* You can queue up many rendering jobs at once by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. When you click 'Make Image', a job will be generated for each line in the prompt textbox.
+* Use curly brackets in prompts to try different words, e.g. the prompt `man riding a {horse,motorcycle}` creates two jobs: One for `man riding a horse` and one for `man riding a motorcycle`:
+
+    ![image](https://user-images.githubusercontent.com/5852422/196795838-88dec248-dbbc-4681-b00f-c16444e80a73.png)
+* You can mark parts of the prompt as more or less important. When you put a part of the prompt in round brackets, it becomes more important. If you use square brackets, the enclosed part becomes less important. You can use multiple brackets for something `(((very important)))` or `[[[less important]]]`:
+
+    ![image](https://user-images.githubusercontent.com/5852422/196799015-7cfa13db-dffb-4c3e-82e8-786c8cd7b2af.png)
+* Instead of using brackets, you can also provide the importance ("weight") as numbers: `girl on a swing:1.2 green grass:1.0 pink trousers:0.8`
+
+    The first weight impacts the entire beginning of the prompt. In the above example, `girl on a swing` has a weight of 1.2, `green grass` has a 
+    weight of 1.0 and `pink trousers` has a weight of 0.8.
+
+    The weight is a separator. You shouldn't use a comma after the weight.
 
 
 ## With an image
@@ -14,10 +45,7 @@ Open http://localhost:9000 in your browser (after running step 3 previously). It
 2. An optional text prompt can help you further describe the kind of image you want to generate.
 3. Press `Make Image`. See the image generated using your prompt.
 
-## Prompt Tips
 
-* Use curly brackets in prompts to try different words E.g. man riding a {horse,motorcycle} results in man riding a horse and man riding a motorcycle being created automatically.
-* You can queue up many images by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. They will all be generated when you click 'Make Image'
  
 
 
