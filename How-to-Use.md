@@ -14,10 +14,14 @@ Open http://localhost:9000 in your browser (after running step 3 previously). It
 2. An optional text prompt can help you further describe the kind of image you want to generate.
 3. Press `Make Image`. See the image generated using your prompt.
 
-Prompt Tips
+## Prompt Tips
 
-Use curly brackets in prompts to try different words E.g. man riding a {horse,motorcycle} results in man riding a horse and man riding a motorcycle being created automatically
-![](https://discord.com/channels/1014774730907209781/1014774732018683924/1032207577368494080)
+* Use curly brackets in prompts to try different words E.g. man riding a {horse,motorcycle} results in man riding a horse and man riding a motorcycle being created automatically.
+* You can queue up many images by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. They will all be generated when you click 'Make Image'
+ 
+
+
+
 
 You can use Face Correction or Upscaling to improve the image further.
 
