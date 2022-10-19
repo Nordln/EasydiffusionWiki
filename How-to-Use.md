@@ -23,35 +23,19 @@ Open http://localhost:9000 in your browser (after running step 3 previously). It
     
     Your image will look different because it used a different random start value (called _seed_).
 
-## Prompt Tips
-* You can enqueue multiple jobs. They are processed one by one. You don't need to wait until the first job is finished.
-* You can queue up many rendering jobs at once by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. When you click 'Make Image', a job will be generated for each line in the prompt textbox.
-* Use curly brackets in prompts to try different words, e.g. the prompt `man riding a {horse,motorcycle}` creates two jobs: One for `man riding a horse` and one for `man riding a motorcycle`:
-
-    ![image](https://user-images.githubusercontent.com/5852422/196795838-88dec248-dbbc-4681-b00f-c16444e80a73.png)
-* You can mark parts of the prompt as more or less important. When you put a part of the prompt in round brackets, it becomes more important. If you use square brackets, the enclosed part becomes less important. You can use multiple brackets for something `(((very important)))` or `[[[less important]]]`:
-
-    ![image](https://user-images.githubusercontent.com/5852422/196799015-7cfa13db-dffb-4c3e-82e8-786c8cd7b2af.png)
-* Instead of using brackets, you can also provide the importance ("weight") as numbers: `girl on a swing:1.2 green grass:1.0 pink trousers:0.8`
-
-    The first weight impacts the entire beginning of the prompt. In the above example, `girl on a swing` has a weight of 1.2, `green grass` has a 
-    weight of 1.0 and `pink trousers` has a weight of 0.8.
-
-    The weight is a separator. You shouldn't use a comma after the weight.
-
+Check the page [[Writing prompts]] for more information on prompts.
 
 ## With an image
 1. Click `Browse..` next to `Initial Image`. Select your desired image.
 2. An optional text prompt can help you further describe the kind of image you want to generate.
 3. Press `Make Image`. See the image generated using your prompt.
 
+## Tipps
+* You can enqueue multiple jobs. They are processed one by one. You don't need to wait until the first job is finished.
+* You can queue up many rendering jobs at once by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. When you click 'Make Image', a job will be generated for each line in the prompt textbox.
 
- 
 
-
-
-
-You can use Face Correction or Upscaling to improve the image further.
+* You can use Face Correction or Upscaling to improve the image further.
 
 **Pro tip:** You can also click `Use as Input` on a generated image, to use it as the input image for your next generation. This can be useful for sequentially refining the generated image with a single click.
 
