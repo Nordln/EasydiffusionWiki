@@ -8,10 +8,16 @@ Open http://localhost:9000 in your browser (after running step 3 previously). It
 2. Press `Make Image`. This will take some time, depending on your system's processing power.
 3. See the image generated using your prompt.
 
+
 ## With an image
 1. Click `Browse..` next to `Initial Image`. Select your desired image.
 2. An optional text prompt can help you further describe the kind of image you want to generate.
 3. Press `Make Image`. See the image generated using your prompt.
+
+Prompt Tips
+
+Use curly brackets in prompts to try different words E.g. man riding a {horse,motorcycle} results in man riding a horse and man riding a motorcycle being created automatically
+![](https://discord.com/channels/1014774730907209781/1014774732018683924/1032207577368494080)
 
 You can use Face Correction or Upscaling to improve the image further.
 
