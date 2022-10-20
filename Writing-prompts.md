@@ -1,3 +1,4 @@
+## The Basics
 * Keep your prompts short. Don't write full sentences. Separate different aspects by commas:
 
     `girl on a swing, green grass, pink trousers`
@@ -16,6 +17,7 @@
 
     ![image](https://user-images.githubusercontent.com/5852422/196818870-c44ca641-bc3e-45a9-91a5-c66a7b671d1f.png)
 
+## Emphasizing parts of the prompt
 * You can mark parts of the prompt as more or less important. When you put a part of the prompt in round brackets, it becomes more important. If you use square brackets, the enclosed part becomes less important. You can use multiple brackets for something `(((very important)))` or `[[[less important]]]`:
 
     ![image](https://user-images.githubusercontent.com/5852422/196799015-7cfa13db-dffb-4c3e-82e8-786c8cd7b2af.png)
@@ -27,10 +29,12 @@
 
     The weight is a separator. You shouldn't use a comma after the weight.
 
+## Testing variations of prompts
 * Use curly brackets in prompts to try different words, e.g. the prompt `man riding a {horse,motorcycle}` creates two rendering jobs: One for `man riding a horse` and one for `man riding a motorcycle`:
 
     ![image](https://user-images.githubusercontent.com/5852422/196795838-88dec248-dbbc-4681-b00f-c16444e80a73.png)
 
+## Negative prompts
 * The negative prompt can be used to describe what you don't want to see in the image. The AI sometimes ignores parts of the negative prompt, especially if the prompt and negative prompt contain very similar terms. In other cases, the negative prompt has big impact on the composition of the image. For example, if you put "shoes" into the negative prompt, you might get a barefoot person - or you get an image where the feet are out of frame. 
 
     A useful negative prompt is:
