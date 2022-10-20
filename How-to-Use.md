@@ -30,7 +30,7 @@ Check the page [[Writing prompts]] for more information on prompts.
 2. An optional text prompt can help you further describe the kind of image you want to generate.
 3. Press `Make Image`. See the image generated using your prompt.
 
-## Tipps
+## Tips
 * You can enqueue multiple jobs. They are processed one by one. You don't need to wait until the first job is finished.
 * You can queue up many rendering jobs at once by entering one prompt per line. Enter a prompt, press return or enter, enter next prompt etc. When you click 'Make Image', a job will be generated for each line in the prompt textbox.
 
