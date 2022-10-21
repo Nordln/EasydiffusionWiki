@@ -1,13 +1,5 @@
 Common issues and their solutions. If these solutions don't work, please feel free to ask at the [discord server](https://discord.com/invite/u9yhsFmEkB) or [file an issue](https://github.com/cmdr2/stable-diffusion-ui/issues).
 
-## 🔥 The model file present at C:\stable-diffusion-ui\stable-diffusion\sd-v1-4.ckpt is invalid. It is only 93 bytes in size. Re-downloading..
-> 2022, October 20
-
-The server that serves the stable diffusion model sd-v1-4.ckpt is currently malfunctioning. You can either try again tomorow, or you download the
-file from another website and save it as `C:\stable-diffusion-ui\stable-diffusion\sd-v1-4.ckpt` (replace C:\ with the name of the name of the drive that you installed to, if you didn't install into C:\). 
-
-You find various download links for "Stable Diffusion v1.4" at [the "rentry" website](https://rentry.org/sdmodels#stable-diffusion-v14-4af45990-7460a6fa-06c50424). Don't save any of the other models as sd-v1-4.ckpt, they will be deleted.
-
 ## RuntimeError: CUDA out of memory
 This can happen if your PC has less than 6GB of VRAM.
 
