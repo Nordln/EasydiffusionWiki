@@ -10,3 +10,10 @@ If you've downloaded a model, you can make it available to Stable Diffusion UI:
 - Reload your browser page. The model should be listed in the "Models" section in the image settings:
 
     ![image](https://user-images.githubusercontent.com/5852422/197419759-45cba5a7-58ef-4fff-a6b2-80536d7f609e.png)
+
+## Web resources
+**Note:** These links lead to websites outside of the Stable Diffusion UI project.
+
+**Note:** Stable Diffusion models can contain malware. ALWAYS SCAN FOR VIRUSES.
+
+- https://rentry.org/sdmodels - List of stable diffusion images from various sources
