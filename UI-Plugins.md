@@ -8,7 +8,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 ### Post processing plugins
 
-- **[Scaleup](https://www.computingbits.com/software/scaleup.plugin.js) by Avidgamefan#4035** -
+- **[Scaleup](https://www.computingbits.com/software/scaleup.plugin.js) by Avidgamefan#4035**
 
     Modest scaling up, maintaining close ratio, with img2img to increase resolution of output.
     Maximum output is 1280, but generally, things are kept at 1024x1024 and below.
