@@ -14,8 +14,7 @@ This can be due to a Firewall/Antivirus/Proxy/VPN blocking your network connecti
 
 Another solution is to switch to Google's DNS server: https://developers.google.com/speed/public-dns/docs/using#windows or Cloudflare's DNS server: https://developers.cloudflare.com/1.1.1.1/setup/windows/
 
-## RuntimeError: Error(s) in loading state_dict fo UNet:
-## size mismatch for model1.diffusion_model.input_blocks.0.0.weight: cyoping a param with shape torch.Size([320, 9, 3, 3]) from checkpoint, ....
+## RuntimeError: Error(s) in loading state_dict fo UNet: size mismatch for model1.diffusion_model.input_blocks.0.0.weight: cyoping a param with shape torch.Size([320, 9, 3, 3]) from checkpoint, ....
 This usually happens when you try to use the v1.5 inpainting model. Unfortunately, it is not compatible with this version of Stable Diffusion.
 
 ## 'conda-unpack' is not recognized as an internal or external command
@@ -32,6 +31,9 @@ On Windows, please ensure that you had placed the `stable-diffusion-ui` folder a
 This error can also be caused if you already have conda/miniconda/anaconda installed, due to package conflicts. Please open your Anaconda Prompt, and run `conda clean --all` to clean up unused packages.
 
 If nothing works, this could be due to a corrupted installation. Please try reinstalling this, by deleting the installed folder, and unzipping from the downloaded zip file.
+
+## ImportError: DLL load failed while importing cv2: The specified module could not be found.
+If you're running Windows 10 N or Windows 10 KN (or any of its Pro, Education, ... variants), [the Microsoft Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) is needed to run Stable Diffusion.
 
 ## Killed uvicorn server:app --app-dir ... --port 9000 --host 0.0.0.0
 This happens if your PC ran out of RAM. Stable Diffusion requires a lot of RAM, and requires atleast 10 GB of RAM to work well. You can also try closing all other applications before running Stable Diffusion UI.
