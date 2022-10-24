@@ -7,7 +7,7 @@ Using user interface plugins, additional functionality can be added to the user 
 If not stated otherwise in the plugin description, right click on the plugin link and save the plugin to `C:\stable-diffusion-ui\plugins\ui` (Or the drive that you've installed to, respectively). The file name must have the suffix `.plugin.js`.
 
 ### Post processing plugins
-- **[Buttons](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/buttons.plugin.js) by [Marc-Andre Ferland](https://github.com/madrang)**
+- **[Mad's Render Tasks](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/mads-render_tasks.plugin.js) by [Marc-Andre Ferland](https://github.com/madrang)**
 
     Adds the old Resize, but now with a UI for it and an option to keep only the last N tasks. 
     _[Github Repo](https://github.com/madrang/sd-ui-plugins)_
