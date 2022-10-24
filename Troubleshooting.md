@@ -14,7 +14,7 @@ This can be due to a Firewall/Antivirus/Proxy/VPN blocking your network connecti
 
 Another solution is to switch to Google's DNS server: https://developers.google.com/speed/public-dns/docs/using#windows or Cloudflare's DNS server: https://developers.cloudflare.com/1.1.1.1/setup/windows/
 
-## RuntimeError: Error(s) in loading state_dict fo UNet: size mismatch for model1.diffusion_model.input_blocks.0.0.weight: cyoping a param with shape torch.Size([320, 9, 3, 3]) from checkpoint, ....
+## RuntimeError: Error(s) in loading state_dict fo UNet: size mismatch for model1.diffusion_model.input_blocks.0.0.weight: copying a param with shape torch.Size([320, 9, 3, 3]) from checkpoint, ....
 This usually happens when you try to use the v1.5 inpainting model. Unfortunately, it is not compatible with this version of Stable Diffusion.
 
 ## 'conda-unpack' is not recognized as an internal or external command
