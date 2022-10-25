@@ -1,6 +1,7 @@
 ## Using the software
 *  [[How to use]]
 *  [[Writing prompts]]
+*  [[Inpainting]]
 
 ## Installation
 *  [[Troubleshooting]]
