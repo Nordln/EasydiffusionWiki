@@ -77,3 +77,7 @@ using a painting software:
 
     To repair these distortions, open the initial and result images as two layers in a photo editor and create a mask to select the initial image
     where it should be kept intact.
+
+## Copyright notice
+The [initial image](https://commons.wikimedia.org/wiki/File:Femmes_Photographes.jpg) used in the examples above is © Moussa Kalapo and licensed 
+under the [CC-BY-SA-4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
