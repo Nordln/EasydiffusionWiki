@@ -18,9 +18,13 @@
     ![image](https://user-images.githubusercontent.com/5852422/196818870-c44ca641-bc3e-45a9-91a5-c66a7b671d1f.png)
 
 ## Emphasizing parts of the prompt
-* You can mark parts of the prompt as more or less important. When you put a part of the prompt in round brackets, it becomes more important. If you use square brackets, the enclosed part becomes less important. You can use multiple brackets for something `(((very important)))` or `[[[less important]]]`:
+* You can mark parts of the prompt as more or less important. When you put a part of the prompt in round brackets, it becomes more important. If you use square brackets, the enclosed part becomes less important. By using multiple brackets you can make things `((even more important))` or `[[[very unimportant]]]`:
 
     ![image](https://user-images.githubusercontent.com/5852422/196799015-7cfa13db-dffb-4c3e-82e8-786c8cd7b2af.png)
+
+    In the above example, the word "pink" in the prompt `girl on a swing, green grass, pink trousers` made all of the girls clothes and the see-saw pink,
+    not only the trousers. By lowering the weight with three square brackets `girl on a swing, green grass, [[[pink trousers]]]`, the impact of the word
+    "pink" is reduced and the shirt and the see-saw are no longer pink.
 
 * Instead of using brackets, you can also provide the importance ("weight") as numbers: `girl on a swing:1.2 green grass:1.0 pink trousers:0.8`
 
