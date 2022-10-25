@@ -21,7 +21,7 @@ part of the picture that the AI shall not change.
 
 ## Examples
 
-The following example used the prompt `Black woman in front of the niagara falls`, a guidance of 7.5, a prompt strength of 0.8 and 45 steps:
+The following example used the prompt `black woman, niagara falls in the background`, a guidance of 7.5, a prompt strength of 0.8 and 45 steps:
 
 <table><tr><td>
 
