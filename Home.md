@@ -11,5 +11,6 @@
 ## Downloadable Content
 * [[Custom Models]]
 * [[UI Plugins]]
+* [[VAE Variational Auto Encoder]]
 
 ***
