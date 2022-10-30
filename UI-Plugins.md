@@ -14,5 +14,5 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[Scaleup](https://www.computingbits.com/software/scaleup.plugin.js) by Avidgamefan#4035**
 
-    Modest scaling up, maintaining close ratio, with img2img to increase resolution of output.
-    Maximum output is 1280, but generally, things are kept at 1024x1024 and below.
+    Modest scaling up, maintaining close ratio, with img2img to increase resolution of output while adding minor details.
+    Maximum output is 1536 along one axis, but generally, things are kept at 1024x1024 and below.  One-click workflow!
