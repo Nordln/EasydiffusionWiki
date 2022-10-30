@@ -33,4 +33,5 @@ The Stable Diffusion UI project is not partnered with any of the services mentio
 
 - **[Open in Photopea](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/photopea.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
-    Open the image in [Photopea](https://www.photopea.com/), a commercial web service that can be used to edit photos. 
+    Open the image in [Photopea](https://www.photopea.com/), a commercial web service that can be used to edit photos.
+    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
