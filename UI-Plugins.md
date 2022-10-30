@@ -16,3 +16,14 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Modest scaling up, maintaining close ratio, with img2img to increase resolution of output while adding minor details.
     Maximum output is 1536 along one axis, but generally, things are kept at 1024x1024 and below.  One-click workflow!
+
+### Information plugins
+- **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
+
+    Copy the settings used to create the image as machine readable JSON string to the clipboard. 
+    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+
+- **[Copy Settings (TXT)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-txt.plugin.js) by [JeLuF](https://github.com/JeLuF)**
+
+    Copy the settings used to create the image as human readable text string to the clipboard.
+    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
