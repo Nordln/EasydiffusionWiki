@@ -17,6 +17,18 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Modest scaling up, maintaining close ratio, with img2img to increase resolution of output while adding minor details.
     Maximum output is 1536 along one axis, but generally, things are kept at 1024x1024 and below.  One-click workflow!
 
+### General UI changes
+- **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
+
+    Adds a new column to keep a history of all prompts/settings that were used in this session.
+    _[Github Repo](https://github.com/rbertus2000/sd-ui-plugins)_
+
+- **[More resolutions](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/More-resolutions.plugin.js) by Super.Skirv#0884 and [JeLuF](https://github.com/JeLuF)**
+
+    Adds all resolutions from 384 to 2048 in steps of 64 to the width and height dropdowns.
+    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+
+
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
