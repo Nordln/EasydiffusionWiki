@@ -28,6 +28,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds all resolutions from 384 to 2048 in steps of 64 to the width and height dropdowns.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
+- **[Don't leave](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/Don-t-leave.plugin.js) by [JeLuF](https://github.com/JeLuF)**
+
+    Warn the user before leaving/reloading/closing the Stable Diffusion tab. Unsaved images might get lost when the tab is being closed.
+    The current version of the plugin does not check for changes - the warning will always be shown.
+    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
