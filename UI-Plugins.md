@@ -64,3 +64,12 @@ The Stable Diffusion UI project is not partnered with any of the services mentio
     3.  [rita_grammar.json](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/rita_grammar.json)
 
     _[Github Repo](https://github.com/madrang/sd-ui-plugins)_
+
+- **[Spell tokenizer](https://raw.githubusercontent.com/Sidem/sd-ui-plugins/main/spell-tokenizer.plugin.js) by [Sidem](https://github.com/Sidem)**
+
+    Script to help with spell (prompt) building.
+    Create individual spell tokens to rearrange and modulate by using commas.
+    Drag and drop tokens to rearrange order.
+    Hold ALT+scroll over a token to emphasize or de-emphasize.
+    Right click to delete a token.
+    _[Github Repo](https://github.com/Sidem/sd-ui-plugins)_
