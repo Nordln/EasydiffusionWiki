@@ -52,3 +52,15 @@ The Stable Diffusion UI project is not partnered with any of the services mentio
 
     Open the image in [Photopea](https://www.photopea.com/), a commercial web service that can be used to edit photos.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+
+### Prompt related plugins
+
+- **[Surprise Me!](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/mads-surprise_me.plugin.js) by [Marc-Andre Ferland](https://github.com/madrang)**
+
+    _Surprise me!_ adds a button that generates a random prompt. You need to download these three files and put them into the `plugins\ui` folder:
+
+    1.  [Surprise Me! Plugin](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/mads-surprise_me.plugin.js)
+    2.  [rita.js](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/rita.js)
+    3.  [rita_grammar.json](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/rita_grammar.json)
+
+    _[Github Repo](https://github.com/madrang/sd-ui-plugins)_
