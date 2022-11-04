@@ -46,6 +46,8 @@
     `Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ((((mutated hands and fingers)))), (((out of frame)))`
 
 ## Further reading
+* [The PromptBook](https://openart.ai/promptbook) from OpenArt, a platform and community dedicated to AI-native content, and is written by members from their community.
+
 * [Stable Diffusion Modifier Studies](https://proximacentaurib.notion.site/2b07d3195d5948c6a7e5836f9d535592?v=b5b75a67cc52483c9965cfc141f6f582)
 
     This is a list of hundreds of different style modifiers
