@@ -23,9 +23,9 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a new column to keep a history of all prompts/settings that were used in this session.
     _[Github Repo](https://github.com/rbertus2000/sd-ui-plugins)_
 
-- **[More resolutions](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/More-resolutions.plugin.js) by Super.Skirv#0884 and [JeLuF](https://github.com/JeLuF)**
+- **[More resolutions](https://raw.githubusercontent.com/superskirv/Ski-SDUI-MoreRes.plugin/main/Ski-SDUI-MoreRes.plugin.js) by [Super.Skirv](https://github.com/superskirv) and [JeLuF](https://github.com/JeLuF)**
 
-    Adds all resolutions from 384 to 2048 in steps of 64 to the width and height dropdowns.
+    Adds all resolutions from 128 to 2048 in steps of 64 to the width and height dropdowns.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
 - **[Don't leave](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/Don-t-leave.plugin.js) by [JeLuF](https://github.com/JeLuF)**
