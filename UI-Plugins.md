@@ -23,7 +23,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a new column to keep a history of all prompts/settings that were used in this session.
     _[Github Repo](https://github.com/rbertus2000/sd-ui-plugins)_
 
-- **[More resolutions](https://raw.githubusercontent.com/superskirv/Ski-SDUI-MoreRes.plugin/main/Ski-SDUI-MoreRes.plugin.js) by [Super.Skirv](https://github.com/superskirv) and [JeLuF](https://github.com/JeLuF)**
+- **[More resolutions](https://raw.githubusercontent.com/superskirv/stable-diffusion-ui-plugins/main/Ski-SDUI-MoreRes.plugin.js) by [Super.Skirv](https://github.com/superskirv) and [JeLuF](https://github.com/JeLuF)**
 
     Adds all resolutions from 128 to 2048 in steps of 64 to the width and height dropdowns.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
@@ -38,6 +38,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Changes how autosave's session folders are named. The folders will have names like _2022_11_05T18_58_05_757Z_ instead of _1667674597680_.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+
+- **[DateFolderNames](https://raw.githubusercontent.com/superskirv/stable-diffusion-ui-plugins/main/DateFolderNames.plugin.js) by [Super.Skirv](https://github.com/superskirv)**
+
+    A different change to the sessionID folder naming scheme. Instead of _1667674597680_ you will get _YYYYMMDD_. This way you wont make a new folder each time you restart the program for that day.  Thanks to [JeLuF](https://github.com/JeLuF) code for showing me how to edit sessionID!
+    _[Github Repo](https://github.com/superskirv/stable-diffusion-ui-plugins)_
 
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
