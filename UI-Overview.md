@@ -1,5 +1,5 @@
 # Prompt and Base Image
-![image](https://user-images.githubusercontent.com/2499585/200583174-d2eb7dcd-a802-4be6-8e4a-b7f6a3ebbef7.png)
+![image](https://user-images.githubusercontent.com/2499585/200661360-90c87055-b351-4946-801b-fd053eb84a45.png)
 * Prompt: A textual prompt for stable diffusion to render - [[More on prompts|Writing prompts]]
 * Load from a file: Load textual prompt from a .txt-file - one prompt per line
 * Negative Prompt: A textual prompt for stable diffusion to avoid - [[More on negative prompts|Writing-prompts#negative-prompts]]
