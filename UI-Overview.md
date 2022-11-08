@@ -27,7 +27,8 @@
 ![image](https://user-images.githubusercontent.com/2499585/200583339-783e49a6-8131-4bea-af66-cc311d626156.png)
 
 # System Settings
-![image](https://user-images.githubusercontent.com/2499585/200583388-80b8df4d-f5b9-4515-a53a-bf911f9fba61.png)
+![image](https://user-images.githubusercontent.com/2499585/200661848-7702a511-281a-4156-80e3-145f711a3ebf.png)
+
 
 # 
 ![image](https://user-images.githubusercontent.com/2499585/200590572-b2ef2d74-1a5d-4394-8899-47c8578bedf1.png)
