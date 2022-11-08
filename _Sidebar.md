@@ -1,5 +1,6 @@
 ## Using the software
 *  [[How to use]]
+*  [[UI Overview]]
 *  [[Writing prompts]]
 *  [[Inpainting]]
 
