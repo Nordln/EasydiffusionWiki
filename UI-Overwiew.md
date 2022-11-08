@@ -14,7 +14,7 @@
 * * Model: A drop-down-menu for selecting data models - More on data models [[here|Custom-Models]]
 * * Custom VAE: A drop-down-menu for selecting Variational Auto Encoder - More on VAE [[here|VAE-Variational-Auto-Encoder]]
 * * Image Size: drop-down-menus to select the resolution of the image to be generated
-* * Inference steps: A number for how many steps stable diffusion should use
+* * Inference steps: A number for how many steps stable diffusion should use - Exmaple [here](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-steps-parameter)
 * * Guidance Scale: A slider & number field that controls how much the imgage generation should follow the prompt - Example [here](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-guidance-scale-parameter)
 * * Output format: A drop-down-menu for selecting either jpeg or png
 * Render Settings
