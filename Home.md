@@ -1,6 +1,7 @@
 # Welcome to the stable-diffusion-ui wiki!
 
 ## Using the software
+*  [[UI Overwiew]]
 *  [[How to use]]
 *  [[Writing prompts]]
 *  [[Inpainting]]
