@@ -2,7 +2,7 @@
 
 ## Using the software
 *  [[How to use]]
-*  [[UI Overwiew]]
+*  [[UI Overview]]
 *  [[Writing prompts]]
 *  [[Inpainting]]
 
