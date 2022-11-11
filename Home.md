@@ -8,6 +8,7 @@
 
 ## Installation
 *  [[Troubleshooting]]
+*  [[The beta channel]]
 
 ## Downloadable Content
 * [[Custom Models]]
