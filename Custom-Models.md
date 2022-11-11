@@ -16,4 +16,5 @@ If you've downloaded a model, you can make it available to Stable Diffusion UI:
 
 **Note:** Stable Diffusion models can contain malware. ALWAYS SCAN FOR VIRUSES.
 
-- https://rentry.org/sdmodels - List of stable diffusion images from various sources
+- https://civitai.com/?types=Checkpoint - Overview of many stable diffusion models. Only models of the type _checkpoint_ can be used by Stable Diffusion UI.
+- https://rentry.org/sdmodels - List of stable diffusion models from various sources
