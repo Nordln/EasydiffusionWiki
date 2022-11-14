@@ -78,3 +78,7 @@ The Stable Diffusion UI project is not partnered with any of the services mentio
     Hold ALT+scroll over a token to emphasize or de-emphasize.
     Right click to delete a token.
     _[Github Repo](https://github.com/Sidem/sd-ui-plugins)_
+
+- **[Tag autocomplete](https://gist.githubusercontent.com/nedius/bd5a1af78dc71a762fe76bd6d05631d5/raw/97ce564d585582876fa163392b8246732fb5c597/nedius.tagcomplete.plugin.js) by [nedius](https://github.com/nedius)**
+
+  Tag autocomplete for prompts using booru style tags. _[Gist](https://gist.github.com/nedius/bd5a1af78dc71a762fe76bd6d05631d5)_
