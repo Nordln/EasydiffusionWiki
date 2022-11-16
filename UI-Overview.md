@@ -50,5 +50,12 @@
   * Configure: Opens a menu to set which settings are stored
 * Beta Channel: Get the latest features immediately (but could be less stable). Please restart the program after changing this.
 
-# 
+# Buttons in the rendered image (these are visible if the user hovers with the mouse over a rendered image)
 ![image](https://user-images.githubusercontent.com/2499585/200590572-b2ef2d74-1a5d-4394-8899-47c8578bedf1.png)
+* Seed: The seed this particular image used
+* Use as input: Uses the image as Input for img2img
+* Download: Downloads the image
+* Make Similar images: Enqueues a task using this image for img2img and generates 5 images
+* Draw antoher 25 steps: Enquees a task using the the settings of that image and increases the Inference Step Count by 25
+* Upscale (only visible if images wasn't already upscaled): Re-Renders the image wtih 4x-Upscaling enabled
+* Fix Faces: Fixes incorrect faces and eyes using GFPGAN
