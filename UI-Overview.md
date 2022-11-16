@@ -45,7 +45,7 @@
 * Use CPU (not GPU): Will force CPU-Rendering (very slow compared to GTX/RTX-Cards)
 * Automatically pick the GPUs (experimental): Will select a GPU automatically
   * GPUs to use (experimental): A List of availible GPUs including the CUDA-Id
-* Use Full precision: Will use more GPU Memory
+* Use Full precision: Will use more GPU Memory, required for NVidia GTX 1650/1660.
 * Auto-Save Settings: Restore Settings on browser load
   * Configure: Opens a menu to set which settings are stored
 * Beta Channel: Get the latest features immediately (but could be less stable). Please restart the program after changing this.
