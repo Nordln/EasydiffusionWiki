@@ -1,4 +1,3 @@
-🔥🔥This feature is currently only available on the beta branch, which might be instable and break your installation!🔥🔥
 
 ## What does a VAE do? 
 
