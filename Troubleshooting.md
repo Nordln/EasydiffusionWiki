@@ -57,10 +57,17 @@ Please ensure that you have an NVIDIA GPU and the latest [NVIDIA driver](http://
 Also, if you are using WSL (Windows), please ensure you have the latest WSL kernel by running `wsl --shutdown` and then `wsl --update`. (Thanks [AndrWeisR](https://github.com/AndrWeisR))
 
 ## ModuleNotFoundError: No module named 'gfpgan'
-If you have moved your installation to a different folder or drive: The name of the installation folder is stored in many configuration files and moving it
-is therefore not possible. You can either move your installation back to the old place, or delete it and re-install to the new location.
+If you have moved your installation to a different folder or drive, please follow these steps *exactly*:
+1. Please delete the 'src' folder: `stable-diffusion-ui\stable-diffusion\src`
+2. Double click `Developer Console.cmd` inside the `stable-diffusion-ui` folder (or `developer_console.sh` on Linux)
+3. **Type `cd stable-diffusion` and press enter** (don't miss this step)
+4. Run these four commands:
+```pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
+pip install -e git+https://github.com/xinntao/Real-ESRGAN#egg=realesrgan
+pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN```
 
-If you have not moved your installation, please contact us on the [discord server](https://discord.com/invite/u9yhsFmEkB).
+And then try running the project again, it should have fixed itself.
 
 # For support queries
 ## Entering a conda environment in an existing installation
