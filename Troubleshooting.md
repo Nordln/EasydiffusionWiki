@@ -62,10 +62,12 @@ If you have moved your installation to a different folder or drive, please follo
 2. Double click `Developer Console.cmd` inside the `stable-diffusion-ui` folder (or `developer_console.sh` on Linux)
 3. **Type `cd stable-diffusion` and press enter** (don't miss this step)
 4. Run these four commands:
-```pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+```
+pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 pip install -e git+https://github.com/xinntao/Real-ESRGAN#egg=realesrgan
-pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN```
+pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN
+```
 
 And then try running the project again, it should have fixed itself.
 
