@@ -44,7 +44,7 @@
 * Turbo Mode: generates images faster, but uses an additional 1 GB of GPU memory
 * Use CPU (not GPU): Will force CPU-Rendering (very slow compared to GTX/RTX-Cards)
 * Automatically pick the GPUs (experimental): Will select a GPU automatically
-  * GPUs th use (experimental): A List of availible GPUs including the CUDA-Id
+  * GPUs to use (experimental): A List of availible GPUs including the CUDA-Id
 * Use Full precision: Will use more GPU Memory
 * Auto-Save Settings: Restore Settings on browser load
   * Configure: Opens a menu to set which settings are stored
