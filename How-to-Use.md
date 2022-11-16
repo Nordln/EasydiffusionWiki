@@ -1,7 +1,7 @@
 This page needs to be rewritten completely.
 
 # Usage
-Open http://localhost:9000 in your browser (after running step 3 previously). It may take a few moments for the back-end to be ready.
+Open http://localhost:9000 in your browser (after installing the software). It may take the project a few seconds to be ready.
 
 ## Create an image from a text description
 ![image](https://user-images.githubusercontent.com/5852422/196790628-2f053c6b-299a-4149-8c8a-8edd0eb08998.png)
