@@ -1,4 +1,4 @@
-This page needs to be rewritten completely.
+This page needs to be improved - to describe more parts of the UI, and needs to be written in a clearer manner. We can certainly use your help.
 
 # Usage
 Open http://localhost:9000 in your browser (after installing the software). It may take the project a few seconds to be ready.
