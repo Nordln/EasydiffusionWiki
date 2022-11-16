@@ -21,13 +21,21 @@
 ## Render Settings
 * Show a live preview: Shows a live preview if enabled, otherwise will display the image when finished
 * Fix incorrect faces and eyes: Uses GFPGAN - a face restauration algorithm to fix glitches in faces & eyes
-* * 
+* Upscale image by 4x: Uses [RealESRGAN](https://github.com/xinntao/Real-ESRGAN) to upscale the final image to 4x the size (512x512 will be 2048x2048)
+  * RealESRGAN_x4plus is general-purpose
+  * RealESRGAN_x4plus_anime_6B is optimized for anime
 
 # Image Modifiers
 ![image](https://user-images.githubusercontent.com/2499585/200583339-783e49a6-8131-4bea-af66-cc311d626156.png)
+* Cogwheel icon: Define custom image modifiers
+* Image style: A pull-down-menu to change the type of icon for the pre-defined modifiers
+  * Face: Shows faces for the icons in the style of the modifiers
+  * Landscapes: Shows landscapes for the icons in the style of the modifiers
+* Thumbnail size: A slider to change the size of the clickable modifiers
+* Image modifiers: These are simply prompt parts, which will be added to the prompt if selected
 
-# System Settings
-![image](https://user-images.githubusercontent.com/2499585/200661848-7702a511-281a-4156-80e3-145f711a3ebf.png)
+# Settings
+![image](https://user-images.githubusercontent.com/2499585/202213868-8137c365-5a1b-4dd2-ba9a-a5efb7f06dbd.png)
 
 
 # 
