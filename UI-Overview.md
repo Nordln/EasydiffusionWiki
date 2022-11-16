@@ -36,7 +36,19 @@
 
 # Settings
 ![image](https://user-images.githubusercontent.com/2499585/202213868-8137c365-5a1b-4dd2-ba9a-a5efb7f06dbd.png)
-
+* Theme: A colour theme for the UI
+* Auto-Save Images: Automatically saves images and a .txt-file with the settings to the specified location
+* Save Location: A folder for saved images
+* Enable Sound: Plays a sound on task completion
+* Open browser on startup: Starts the default browser on startup with http://localhost:9000/ as URL
+* Turbo Mode: generates images faster, but uses an additional 1 GB of GPU memory
+* Use CPU (not GPU): Will force CPU-Rendering (very slow compared to GTX/RTX-Cards)
+* Automatically pick the GPUs (experimental): Will select a GPU automatically
+  * GPUs th use (experimental): A List of availible GPUs including the CUDA-Id
+* Use Full precision: Will use more GPU Memory
+* Auto-Save Settings: Restore Settings on browser load
+  * Configure: Opens a menu to set which settings are stored
+* Beta Channel: Get the latest features immediately (but could be less stable). Please restart the program after changing this.
 
 # 
 ![image](https://user-images.githubusercontent.com/2499585/200590572-b2ef2d74-1a5d-4394-8899-47c8578bedf1.png)
