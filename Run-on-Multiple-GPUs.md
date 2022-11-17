@@ -1,6 +1,7 @@
 **Experimental support for multiple GPUs!**
 
 ![image](https://user-images.githubusercontent.com/844287/202389537-3114474a-a850-49c7-800d-8db891e93fd9.png)
+
 ![image](https://user-images.githubusercontent.com/844287/202389573-8406ef69-0f58-402c-a6b2-2fbc135c0c89.png)
 
 The project will now automatically run on multiple GPUs by default, if your PC has them. For e.g. two tasks will run in parallel across two GPUs, if you have them.
