@@ -58,16 +58,15 @@ Also, if you are using WSL (Windows), please ensure you have the latest WSL kern
 
 ## ModuleNotFoundError: No module named 'gfpgan'
 If you have moved your installation to a different folder or drive, please follow these steps *exactly*:
-1. Please delete the 'src' folder: `stable-diffusion-ui\stable-diffusion\src`
-2. Double click `Developer Console.cmd` inside the `stable-diffusion-ui` folder (or `developer_console.sh` on Linux)
-3. **Type `cd stable-diffusion` and press enter** (don't miss this step)
-4. Run these four commands:
+1. Open in `notepad` the `stable-diffusion-ui\stable-diffusion\env\Lib\site-packages\easy-install.pth`
+2. Change the paths from the old path to the new path. For e.g. if your previous folder was `C:\stable-diffusion-ui`, and the new location is `E:\ai\stable-diffusion-ui`, then change the paths to (**change the path to where your new folder is**):
 ```
-pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
-pip install -e git+https://github.com/xinntao/Real-ESRGAN#egg=realesrgan
-pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN
+E:\ai\stable-diffusion-ui\stable-diffusion\src\taming-transformers
+E:\ai\stable-diffusion-ui\stable-diffusion\src\clip
+E:\ai\stable-diffusion-ui\stable-diffusion\src\realesrgan
+E:\ai\stable-diffusion-ui\stable-diffusion\src\gfpgan
 ```
+3. Save this file, and try running the project again. The same approach should work for Linux as well.
 
 And then try running the project again, it should have fixed itself.
 
