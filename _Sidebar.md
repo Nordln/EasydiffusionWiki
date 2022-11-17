@@ -3,6 +3,7 @@
 *  [[UI Overview]]
 *  [[Writing prompts]]
 *  [[Inpainting]]
+*  [[Run on Multiple GPUs]]
 
 ## Installation
 *  [[Troubleshooting]]
