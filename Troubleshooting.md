@@ -68,8 +68,6 @@ E:\ai\stable-diffusion-ui\stable-diffusion\src\gfpgan
 ```
 3. Save this file, and try running the project again. The same approach should work for Linux as well.
 
-And then try running the project again, it should have fixed itself.
-
 # For support queries
 ## Entering a conda environment in an existing installation
 This will give you an activated conda environment in the terminal, so you can run commands and force-install any packages, if required.
