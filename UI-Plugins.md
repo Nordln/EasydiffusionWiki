@@ -9,7 +9,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 ### Post processing plugins
 - **[Mad's Render Tasks](https://raw.githubusercontent.com/madrang/sd-ui-plugins/master/mads-render_tasks.plugin.js) by [Marc-Andre Ferland](https://github.com/madrang)**
 
-    Adds a Resize option with a UI to select the output resolution and change the prompt or any settings.
+    Adds a Resize option with a UI to select the output resolution, change the prompt, guidance scale, etc...
     A Redo button to retry quickly with a new seed.
     And an option to keep only the last N tasks.
     _[Github Repo](https://github.com/madrang/sd-ui-plugins)_
