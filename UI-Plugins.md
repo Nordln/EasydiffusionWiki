@@ -23,7 +23,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[ScaleupMAX](https://www.computingbits.com/software/scaleupMAX.plugin.js) by Avidgamefan#4035**
 
-    Scales up to the largest resolution your card can handle. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
+    Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
