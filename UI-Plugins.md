@@ -27,7 +27,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
 
-- **[Draw Another X Steps](https://andrewjnuttall.com/stable-ui/plugins/render_more_steps.plugin.js) by [Andrew Nuttall]**
+- **[Draw Another X Steps](https://andrewjnuttall.com/stable-ui/plugins/render_more_steps.plugin.js) by [Andrew Nuttall](https://andrewjnuttall.com)**
 
     Give options to draw X additional steps where X is a list of steps defined in the file. Default is 50, 100, 150, 200 and as such will give the options "Draw Another 50 Steps", "Draw Another 100 Steps", etc. To modify open in a text editor and change the stepList to include desired step options.
 
