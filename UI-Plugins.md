@@ -33,8 +33,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[Down the Rabbit Hole](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js) by [Andrew Nuttall](https://andrewjnuttall.com)**
 
-    This early version allows for setting guidance scale steps and whether to loop through the samplers or not and to set a max number of images. Future version will allow for nested looping through all modifiers up to a max amount.
-
+    V2 Update - Now includes all of the modifiers at the given time of development. Set Max Images to generate, set Guidance Scale Count and Step distance and now set how many of each modifier type you want to iterate through. Settings in the js file, hover image and go "Down the Rabbit Hole".
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
