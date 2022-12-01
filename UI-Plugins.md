@@ -35,8 +35,8 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Gives a "Down the Rabbit Hole" image hover button that generates variations based on a settings json file. Allows for massive loop incursions through all modifiers, guidance scales, Inference Steps and Samplers. Allows a max generated image limit so you don't accidentally get into the millions of variants.
 
-    -[Down the Rabbit Hole Plugin.js](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js)
-    -[Down the Rabbit Hole Json](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.json)
+    * [Down the Rabbit Hole Plugin.js](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js)
+    * [Down the Rabbit Hole Json](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.json)
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
