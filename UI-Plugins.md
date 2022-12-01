@@ -31,9 +31,9 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Give options to draw X additional steps where X is a list of steps defined in the file. Default is 50, 100, 150, 200 and as such will give the options "Draw Another 50 Steps", "Draw Another 100 Steps", etc. To modify open in a text editor and change the stepList to include desired step options.
 
-- **[Down the Rabbit Hole](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js) by [Andrew Nuttall](https://andrewjnuttall.com)**
+- **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
-    V2 Update - Now includes all of the modifiers at the given time of development. Set Max Images to generate, set Guidance Scale Count and Step distance and now set how many of each modifier type you want to iterate through. Settings in the js file, hover image and go "Down the Rabbit Hole".
+    Gives a "Down the Rabbit Hole" image hover button that generates variations based on a settings json file. Allows for massive loop incursions through all modifiers, guidance scales, Inference Steps and Samplers. Allows a max generated image limit so you don't accidentally get into the millions of variants. [Down the Rabbit Hole Plugin.js](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js) [Down the Rabbit Hole Json](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.json)
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
