@@ -60,6 +60,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Changes how autosave's session folders are named. The folders will have names like _2022_11_05T18_58_05_757Z_ instead of _1667674597680_.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
+- **[Scrolling panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-plugins/main/scrolling-panes.plugin.js) by [Patrice]**
+
+    Makes the editor and preview panes scroll independently. Allows one to easily craft new prompts while images are being generated.
+    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-plugins/)_
+
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
