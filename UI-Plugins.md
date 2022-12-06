@@ -27,16 +27,10 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
 
-- **[Draw Another X Steps](https://andrewjnuttall.com/stable-ui/plugins/render_more_steps.plugin.js) by [Andrew Nuttall](https://andrewjnuttall.com)**
-
-    Give options to draw X additional steps where X is a list of steps defined in the file. Default is 50, 100, 150, 200 and as such will give the options "Draw Another 50 Steps", "Draw Another 100 Steps", etc. To modify open in a text editor and change the stepList to include desired step options.
-
 - **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
-    Gives a "Down the Rabbit Hole" image hover button that generates variations based on a settings json file. Allows for massive loop incursions through all modifiers, guidance scales, Inference Steps and Samplers. Allows a max generated image limit so you don't accidentally get into the millions of variants.
-
-    * [Down the Rabbit Hole Plugin.js](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.plugin.js)
-    * [Down the Rabbit Hole Json](https://andrewjnuttall.com/stable-ui/plugins/rabbit_hole.json)
+    Generates a grid of prompts to run against. Can be used to step through Inference Steps, samplers, Guidance Scales or all modifiers.
+    More information and download is [here.](https://andrewjnuttall.com/blog/nuttalls-stable-diffusion-ui-plugin/)
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
