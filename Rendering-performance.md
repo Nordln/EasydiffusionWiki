@@ -13,12 +13,15 @@
 <tr><td>Xeon E5-1650</td><td>3.20GHz</td><td>410s</td></tr>
 </table>
 
+## Benchmark job
 ```
 Prompt: a photograph of an astronaut riding a horse
 Seed: 3464895
 Number of Images: 1/1
 Model: sd-v1-4
 Sampler: euler_a
+VAE: None
+Hypernetwork: None
 Image size: 512x512
 Inference Steps: 25
 Guidance Scale: 7.5
