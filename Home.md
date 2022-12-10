@@ -17,3 +17,5 @@
 * [[VAE Variational Auto Encoder]]
 
 ***
+## Interesting Internet Ressources
+* [Glossary of Stable Diffusion related terms](https://theally.notion.site/The-Definitive-Stable-Diffusion-Glossary-1d1e6d15059c41e6a6b4306b4ecd9df9)
