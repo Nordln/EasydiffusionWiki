@@ -45,8 +45,8 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[Scaled Up Resolutions](https://raw.githubusercontent.com/superskirv/stable-diffusion-ui-plugins/main/Ski-ScaleResolutions.plugin.js) by [Super.Skirv](https://github.com/superskirv)**
 
-    Adds or Appends all resolutions from 128 to 2048 in steps of 64 to the width and height dropdowns.
-    This will add paired resolutions to the bottom of the list of resolutions. Example I want images that are similar ratio too 768x512, or 3:2, or 3 divided by 2, which is 1.5. So this will search for any resolutions below a set max(default 2048), that are exactly 1.5(960x640), or close enough(1984x1344), configurable to be anything percent .03, or 3 percent different, or 0 for exact ratio only. Once it finds a pair it will add it to the bottom of the resolution list with the title "Pair 1", just match both width and height with its pair and your good.
+    Overwrites or Appends all resolutions from 128 to 2048 in steps of 64 to the width and height dropdowns.
+    This will also Overwrites or Append paired resolutions to the bottom of the list of resolutions. Example I want images that are similar ratio to 768x512, or 3:2, or 3 divided by 2, which is 1.5. So this will search for any resolutions ratios below a set max(default 2048) size, that are exactly 1.5(960x640), or close enough at 1.476(1984x1344), configurable to be any percent, default is 3 percent different, or set it to 0 for exact ratio only. Once it finds a pair it will add it to the bottom of the resolution list with the title "Pair 1-NUM", just match both width and height with its pair and your good.
     _[Github Repo](https://github.com/superskirv/stable-diffusion-ui-plugins/)_
 
 - **[Don't leave](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/Don-t-leave.plugin.js) by [JeLuF](https://github.com/JeLuF)**
