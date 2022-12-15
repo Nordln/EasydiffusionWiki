@@ -70,6 +70,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a system setting to allow the user to change the action to display the buttons on an image (rather than just hovering over it). Default is set to hover (current UI behavior), can be changed to use mouse buttons in the system settings.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
+- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+
+    Restores the image modifier cards upon reloading the page.
+    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+
 - **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.2.2.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Allows editor and preview panes to scroll independently. Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
