@@ -75,7 +75,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Restores the image modifier cards upon reloading the page.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.2.2.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.2.3.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Allows editor and preview panes to scroll independently. Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
