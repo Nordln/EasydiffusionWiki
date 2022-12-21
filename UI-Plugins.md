@@ -80,6 +80,10 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Allows editor and preview panes to scroll independently, and adds the ability to toggle the editor (more space available for images). Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
+- **[RemoveHelpButtons](https://github.com/JeLuF/stable-diffusion-ui-plugins/blob/main/RemoveHelpButtons.plugin.js) by [JeLuF](https://github.com/JeLuF)**
+
+    Remove the help buttons from the image settings and other areas of the UI. [Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
