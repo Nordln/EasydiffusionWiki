@@ -11,6 +11,8 @@ merge_models('C:/path/to/first_model.ckpt', 'C:/path/to/second_model.safetensors
 ```
 and press Enter.
 
+Set the correct paths to the two models.
+
 Set the `ratio` to a number between 0 and 1. This decides the contribution of the two models. A ratio of 0 means only the first model will be used, and a ratio of 1 means only the second model will be used. A ratio of 0.5 means half of each model will be used.
 
 That's it. Your merged model will be stored at the path you mentioned.
