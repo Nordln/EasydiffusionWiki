@@ -70,9 +70,9 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a system setting to allow the user to change the action to display the buttons on an image (rather than just hovering over it). Default is set to hover (current UI behavior), can be changed to use mouse buttons in the system settings.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
 
-    Restores the image modifier cards upon reloading the page.
+    Restores the image modifier cards upon reloading the page. Version 1.1 loads much faster, improved reliability. Requires Easy Diffusion 2.5.2 or later.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
 - **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.5.plugin.js) by [Patrice](https://github.com/patriceac)**
