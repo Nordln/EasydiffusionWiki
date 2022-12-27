@@ -75,6 +75,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Restores the image modifier cards upon reloading the page. Version 1.1 loads much faster, improved reliability. Requires Easy Diffusion 2.5.2 or later.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
+- **[Seed Randomizer](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/seed-randomizer-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
+    
+    Adds a system setting to randomize, thus increasing the variability of images ran in batches. E.g. can run "A pug wearing a {reb, blue, green} hat" as 3 tasks with different seeds, thus yielding more variety in the results.
+    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+
 - **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.5.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Allows editor and preview panes to scroll independently, and adds the ability to toggle the editor (more space available for images). Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
