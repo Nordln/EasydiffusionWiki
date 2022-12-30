@@ -23,6 +23,12 @@ set SD_UI_BIND_IP=127.0.0.1
 
 Once the application is running, go to the "Settings" tab in the web interface and click "Save" to persist these settings. You can now use `"Start Stable Diffusion UI.cmd"` to start the application and don't need to provide the config settings any more for each startup.
 
+## Prevent browser start
+If you're installing on a headless system, you might need to prevent the browser startup that normally occurs during installation. To do so, create a file `config.json` in the `scripts` folder with this content:
+```
+{"render_devices": "auto", "update_branch": "main", "ui": {"open_browser_on_start": false} }
+```
+
 # Runtime settings
 The runtime settings are stored in the following files:
 * `scripts/config.json`
