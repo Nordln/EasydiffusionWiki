@@ -7,7 +7,7 @@ You can merge two Stable Diffusion models (in `.ckpt` or `.safetensors` formats)
 3. Type `from sdkit.train import merge_models` and press Enter.
 4. Type:
 ```python
-merge_models('C:/path/to/first_model.ckpt', 'C:/path/to/second_model.safetensors', ratio=0.3, 'C:/path/to/merged_model.safetensors', use_fp16=True)
+merge_models('C:/path/to/first_model.ckpt', 'C:/path/to/second_model.safetensors', ratio=0.3, out_path='C:/path/to/merged_model.safetensors', use_fp16=True)
 ```
 and press Enter.
 
