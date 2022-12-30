@@ -10,6 +10,7 @@
 
 ## Installation
 *  [[Troubleshooting]]
+*  [[Config settings]]
 *  [[The beta channel]]
 
 ## Downloadable Content
