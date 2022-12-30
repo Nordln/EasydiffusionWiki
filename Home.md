@@ -6,6 +6,7 @@
 *  [[Writing prompts]]
 *  [[Inpainting]]
 *  [[Run on Multiple GPUs]]
+*  [[Model Merging]]
 
 ## Installation
 *  [[Troubleshooting]]
