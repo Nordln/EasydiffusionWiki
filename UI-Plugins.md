@@ -19,13 +19,19 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Modest scaling up, maintaining close ratio, with img2img to increase resolution of output while adding minor details.
     Maximum output is 1536 along one axis, but generally, things are kept at 1024x1024 and below.  One-click workflow!
 
+    [Scaleup:Beta](https://www.computingbits.com/software/beta/scaleup.plugin.js)
+
 - **[Scaleup(preserve)](https://www.computingbits.com/software/scaleuppreserve.plugin.js) by Avidgamefan#4035**
 
     Same as above, but with a low Prompt Strength, to preserve more details.
 
+    [Scaleup(preserve):Beta](https://www.computingbits.com/software/beta/scaleuppreserve.plugin.js)
+
 - **[ScaleupMAX](https://www.computingbits.com/software/scaleupMAX.plugin.js) by Avidgamefan#4035**
 
     Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
+
+    [ScaleupMAX:Beta](https://www.computingbits.com/software/beta/scaleupMAX.plugin.js)
 
 - **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
