@@ -76,7 +76,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a system setting to disable the source image zoom on hover in the task list.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[How To Show Image Buttons](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/how-to-show-image-buttons-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Accessibility Improvements](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/accessibility-improvements-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Adds a system setting to allow the user to change the action to display the buttons on an image (rather than just hovering over it). Default is set to hover (current UI behavior), can be changed to use mouse buttons in the system settings.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
