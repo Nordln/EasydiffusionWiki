@@ -86,7 +86,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Shows the actual brush in the image editor for increased precision.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.2.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Restores the image modifier cards upon reloading the page. Version 1.1 loads much faster, improved reliability. Requires Easy Diffusion 2.5.2 or later.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
