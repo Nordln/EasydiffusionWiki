@@ -86,6 +86,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Shows the actual brush in the image editor for increased precision.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
+- **[Reload Models](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/reload-models-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+
+    Adds a button to reload models without having to refresh the page.
+    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+
 - **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.2.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Restores the image modifier cards upon reloading the page. Version 1.2 loads much faster, with improved reliability. Requires Easy Diffusion 2.5.2 or later.
