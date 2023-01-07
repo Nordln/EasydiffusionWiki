@@ -83,7 +83,10 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[Image Editor Improvements](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/image-editor-improvements-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
 
-    Shows the actual brush in the image editor for increased precision.
+    - Shows the actual brush in the image editor for increased precision.
+    - Add img2img source image via drag & drop from external file or browser image (incl. rendered image). Just drop the image in the editor pane.
+    - Add img2img source image by pasting an image from the clipboard
+    - Integrates seamlessly with Scrolling Panes 1.8
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
 - **[Reload Models](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/reload-models-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
@@ -101,7 +104,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a system setting to randomize, thus increasing the variability of images ran in batches. E.g. can run "A pug wearing a {reb, blue, green} hat" as 3 tasks with different seeds, thus yielding more variety in the results.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.7.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.8.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Allows editor and preview panes to scroll independently, and adds the ability to toggle the editor (more space available for images). Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
