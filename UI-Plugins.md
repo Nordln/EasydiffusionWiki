@@ -89,7 +89,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     - Integrates seamlessly with Scrolling Panes 1.8
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
 
-- **[Reload Models](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/reload-models-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Reload Models](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/reload-models-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Adds a button to reload models without having to refresh the page.
     _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
