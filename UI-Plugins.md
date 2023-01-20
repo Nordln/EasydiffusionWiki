@@ -55,12 +55,6 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     This will also Overwrites or Append paired resolutions to the bottom of the list of resolutions. Example I want images that are similar ratio to 768x512, or 3:2, or 3 divided by 2, which is 1.5. So this will search for any resolutions ratios below a set max(default 2048) size, that are exactly 1.5(960x640), or close enough at 1.476(1984x1344), configurable to be any percent, default is 3 percent different, or set it to 0 for exact ratio only. Once it finds a pair it will add it to the bottom of the resolution list with the title "Pair 1-NUM", just match both width and height with its pair and your good.
     _[Github Repo](https://github.com/superskirv/stable-diffusion-ui-plugins/)_
 
-- **[Don't leave](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/Don-t-leave.plugin.js) by [JeLuF](https://github.com/JeLuF)**
-
-    Warn the user before leaving/reloading/closing the Stable Diffusion tab. Unsaved images might get lost when the tab is being closed.
-    The current version of the plugin does not check for changes - the warning will always be shown.
-    _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
-
 - **[DateFolders](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/DateFolders.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
     Changes how autosave's session folders are named. The folders will have names like _2022_11_05T18_58_05_757Z_ instead of _1667674597680_.
