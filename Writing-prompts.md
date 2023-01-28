@@ -31,7 +31,8 @@
     The first weight impacts the entire beginning of the prompt. In the above example, `girl on a swing` has a weight of 1.2, `green grass` has a 
     weight of 1.0 and `pink trousers` has a weight of 0.8.
 
-    The weight is a separator. You shouldn't use a comma after the weight.
+    The weight acts a separator, so you don't need a comma behind it. There *must* be a space character after the weight. If you use a comma or a bracket,
+    you will get a warning like `WARNING cuda:0 Warning: '2.0,' is not a value, are you missing a space?`
 
 ## Testing variations of prompts
 * Use curly brackets in prompts to try different words, e.g. the prompt `man riding a {horse,motorcycle}` creates two rendering jobs: One for `man riding a horse` and one for `man riding a motorcycle`:
