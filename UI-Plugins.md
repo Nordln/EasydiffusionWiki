@@ -138,14 +138,14 @@ The Stable Diffusion UI project is not partnered with any of the services mentio
 
     _[Github Repo](https://github.com/madrang/sd-ui-plugins)_
 
-- **[Spell tokenizer](https://raw.githubusercontent.com/Sidem/sd-ui-plugins/main/spell-tokenizer.plugin.js) by [Sidem](https://github.com/Sidem)**
+- **[Spell tokenizer](https://gitlab.com/SoliDissipation/sd-ui-plugins/-/raw/main/spell-tokenizer.plugin.js) by [Solid Dissipation](https://gitlab.com/SoliDissipation)**
 
     Script to help with spell (prompt) building.
     Create individual spell tokens to rearrange and modulate by using commas.
     Drag and drop tokens to rearrange order.
     Hold ALT+scroll over a token to emphasize or de-emphasize.
-    Right click to delete a token.
-    _[Github Repo](https://github.com/Sidem/sd-ui-plugins)_
+    Right click to delete a token. Paste links to danbooru or AIbooru posts to auto extract tags. Autocomplete with custom taglists.
+    _[Git Repo](https://gitlab.com/SoliDissipation/sd-ui-plugins/)_
 
 - **[Tag autocomplete](https://gist.githubusercontent.com/nedius/bd5a1af78dc71a762fe76bd6d05631d5/raw/97ce564d585582876fa163392b8246732fb5c597/nedius.tagcomplete.plugin.js) by [nedius](https://github.com/nedius)**
 
