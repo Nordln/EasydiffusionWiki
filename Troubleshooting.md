@@ -3,9 +3,7 @@ Common issues and their solutions. If these solutions don't work, please feel fr
 ## RuntimeError: CUDA out of memory
 This can happen if your PC has less than 6GB of GPU RAM.
 
-Try disabling the "Turbo mode" setting under "Advanced Settings", since that takes an additional 1 GB of VRAM (to increase the speed).
-
-Additionally, a common reason for this error is that you're using an initial image larger than 768x768 pixels. Try using a smaller initial image.
+Try setting a lower "VRAM Usage Level" setting in the "Settings" tab.
 
 Also try generating smaller sized images.
 
