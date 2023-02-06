@@ -31,6 +31,8 @@ That's it!
 ---
 
 ## Advanced usage
-You can also automatically create multiple merge files, at increasing merge ratios. This is useful for experimenting with different merge ratios. Note: this will create one model file per merge ratio, so it can consume a lot of disk space quickly!
+You can also automatically create multiple merge files, at increasing merge ratios. This is useful for experimenting with different merge ratios.
+
+Note: this will create one model file per merge ratio, so it can consume a lot of disk space quickly!
 
 ![image](https://user-images.githubusercontent.com/844287/216995745-dca533eb-a4a6-4f3b-9f44-b3b7dc085731.png)
