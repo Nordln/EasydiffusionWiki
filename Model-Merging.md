@@ -1,6 +1,6 @@
 **This feature is available in versions 2.5.0 and higher**
 
-You can merge two Stable Diffusion models (in `.ckpt` or `.safetensors` formats).
+You can merge two Stable Diffusion models (in `.ckpt` or `.safetensors` formats), to combine features and art-styles from two different models.
 
 ### Step 1
 Open the `Merge models` tab, at the top of the UI:
