@@ -1,20 +1,32 @@
 **This feature is available in versions 2.5.0 and higher**
 
-You can merge two Stable Diffusion models (in `.ckpt` or `.safetensors` formats). A UI is planned for this, but for now, you can follow these steps to merge models easily:
+You can merge two Stable Diffusion models (in `.ckpt` or `.safetensors` formats).
 
-1. Double-click the `Developer Console.cmd` file (on Linux: open terminal, and run `./developer_console.sh`)
-2. Type `python` and press Enter.
-3. Type `from sdkit.train import merge_models` and press Enter.
-4. Type:
-```python
-merge_models('C:/path/to/first_model.ckpt', 'C:/path/to/second_model.safetensors', ratio=0.3, out_path='C:/path/to/merged_model.safetensors', use_fp16=True)
-```
-and press Enter.
+### Step 1
+Open the `Merge models` tab, at the top of the UI:
 
-Set the correct paths to the two models.
+![image](https://user-images.githubusercontent.com/844287/216994692-9b472019-0f25-4ba6-9cf9-116aeba9f192.png)
 
-Set the `ratio` to a number between 0 and 1. This decides the contribution of the two models. A ratio of 0 means only the first model will be used, and a ratio of 1 means only the second model will be used. A ratio of 0.5 means half of each model will be used.
+### Step 2
+Select the two model files (which you want to merge):
 
-That's it. Your merged model will be stored at the path you mentioned.
+![image](https://user-images.githubusercontent.com/844287/216995012-4b31daf0-30cf-4a4c-8763-27d6e828f5a9.png)
 
-We're working on providing a UI for this as well.
+**Important**: Please merge models of similar type. For e.g. `SD 1.4` models with only `SD 1.4/1.5` models, `SD 2.0` with `SD 2.0`-type, and `SD 2.1` with `SD 2.1`-type models.
+
+### Step 3
+Choose the `merge ratio`. For e.g. a `5%` merge ratio will result in 5% of `Model A` and 95% of `Model B` in the final merged model.
+
+![image](https://user-images.githubusercontent.com/844287/216995406-8f9738e3-6ac8-4afd-9063-31119b12813a.png)
+
+### Step 4
+Set the filename for the merged model, in the `Output file name` textbox. The merge ratio and file extension will be added automatically, you don't need to include them in the filename.
+
+![image](https://user-images.githubusercontent.com/844287/216996163-c8adc5aa-e81e-4f35-8236-3e0c1c7580b4.png)
+
+Finally, click the `Merge models` button to produce the merged model file(s).
+
+### Advanced usage
+You can also automatically create multiple merge files, at increasing merge ratios. This is useful for experimenting with different merge ratios. Note: this will create one model file per merge ratio, so it can consume a lot of disk space quickly!
+
+![image](https://user-images.githubusercontent.com/844287/216995745-dca533eb-a4a6-4f3b-9f44-b3b7dc085731.png)
