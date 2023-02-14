@@ -1,6 +1,6 @@
 # Welcome to the stable-diffusion-ui wiki!
 
-## Using the software
+## Using the Software
 *  [[How to Use]]
 *  [[UI Overview]]
 *  [[Writing prompts]]
