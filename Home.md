@@ -3,7 +3,7 @@
 ## Using the Software
 *  [[How to Use]]
 *  [[UI Overview]]
-*  [[Writing prompts]]
+*  [[Writing Prompts]]
 *  [[Inpainting]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
