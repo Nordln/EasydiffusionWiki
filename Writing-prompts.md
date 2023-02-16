@@ -1,5 +1,5 @@
 ## The Basics
-* Keep your prompts short. Don't write full sentences. Separate different aspects by commas:
+* Keep your prompts short don't write full sentences. Separate different aspects of your image by commas:
 
     `girl on a swing, green grass, pink trousers`
 
