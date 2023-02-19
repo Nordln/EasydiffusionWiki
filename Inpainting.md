@@ -1,3 +1,9 @@
+
+![image](https://user-images.githubusercontent.com/5852422/219961229-66175d43-f899-4667-9028-15ee11dd2caa.png)
+
+
+# Old documentation
+
 **Inpainting** is a stable diffusion mode, in which stable diffusion only changes a part of the initial image, while keeping other parts of the
 initial image intact. To use inpainting, first select an initial image using the "Choose file" button (①), then put a checkmark into the In-Painting checkbox (②):
 
