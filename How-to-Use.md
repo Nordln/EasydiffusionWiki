@@ -18,7 +18,7 @@ When loaded this is what it should look like:
 
 Here is a rough overview of the behaviors of different sampler implementations:
 
-![samplers](https://user-images.githubusercontent.com/683528/194741816-1291abdd-caac-4fc2-ac97-dd88513d8b6e.jpg)
+![SD](https://user-images.githubusercontent.com/7282547/222912410-32e65aef-317f-4f35-89bd-45d92569c317.jpg)
 
 Most samplers are deterministic. If re-run with the same seed and settings, it will generate the same image. You can also increase the step size to see if artifacts in the image clear up, but it may be a slightly different image.
 
