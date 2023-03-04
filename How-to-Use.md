@@ -24,5 +24,7 @@ Most samplers are deterministic. If re-run with the same seed and settings, it w
 
 Note that `euler_a` and `dpm2_a` are *not always* deterministic. They can create different images when run in different batch sizes.
 
+![SD2](https://user-images.githubusercontent.com/7282547/222918227-052d5c8f-f6db-4bcb-bfe8-2902228171db.jpg)
+
 # Troubleshooting
 Please try the common [troubleshooting](https://github.com/cmdr2/stable-diffusion-ui/wiki/Troubleshooting) steps. If that doesn't fix it, please ask on the [discord server](https://discord.com/invite/u9yhsFmEkB), or [file an issue](https://github.com/cmdr2/stable-diffusion-ui/issues).
