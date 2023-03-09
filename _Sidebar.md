@@ -5,6 +5,7 @@
 *  [[Inpainting]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
+*  [[Custom Modifiers]]
 
 ## Installation
 *  [[Troubleshooting]]
