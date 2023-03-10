@@ -27,6 +27,10 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
 
+- **[OutpaintIt](https://raw.githubusercontent.com/AvidGameFan/ed-plugins/master/OutpaintIt.plugin.js) by Avidgamefan#4035**
+
+OutpaintIt generates a new area outside of your existing image, in any one of the 4 directions with one click. Fix those cut-off heads! As with the ScaleUp plugins, it is set up for 8GB VRAM limits by default; edit the file if you have more or less VRAM.
+
 - **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
     Generates a grid of prompts to run against. Can be used to step through Inference Steps, samplers, Guidance Scales or all modifiers.
