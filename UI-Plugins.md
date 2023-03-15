@@ -58,48 +58,38 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Changes how autosave's session folders are named. The folders will have names like _2022_11_05T18_58_05_757Z_ instead of _1667674597680_.
     _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
-- **[Custom Modifier Categories](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/custom-modifier-categories-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
-
-    Allows for multiple custom modifier categories. Use # to name your custom categories.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
-
-- **[Disable Source Image Zoom](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/disable-source-image-zoom-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Disable Source Image Zoom](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/disable-source-image-zoom.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Adds a system setting to disable the source image zoom on hover in the task list.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
-- **[Accessibility Improvements](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/accessibility-improvements-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Accessibility Improvements](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/accessibility-improvements.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Adds a system setting to allow the user to change the action to display the buttons on an image (rather than just hovering over it). Default is set to hover (current UI behavior), can be changed to use mouse buttons in the system settings.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
-- **[Image Editor Improvements](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/image-editor-improvements-1.0.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Image Editor Improvements](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/image-editor-improvements.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     - Shows the actual brush in the image editor for increased precision.
     - Add img2img source image via drag & drop from external file or browser image (incl. rendered image). Just drop the image in the editor pane.
     - Add img2img source image by pasting an image from the clipboard
     - Integrates seamlessly with Scrolling Panes 1.8
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
-- **[Reload Models](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/reload-models-1.1.plugin.js) by [Patrice](https://github.com/patriceac)**
-
-    Adds a button to reload models without having to refresh the page.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
-
-- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/restore-image-modifiers-1.2.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Restore Image Modifiers](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/image-modifier-improvements.plugin.js) by [Patrice](https://github.com/patriceac)**
 
     Restores the image modifier cards upon reloading the page. Version 1.2 loads much faster, with improved reliability. Requires Easy Diffusion 2.5.2 or later.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
-- **[Seed Randomizer](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/seed-randomizer-1.2.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Seed Randomizer](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/seed-randomizer.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Adds a system setting to randomize, thus increasing the variability of images ran in batches. E.g. can run "A pug wearing a {reb, blue, green} hat" as 3 tasks with different seeds, thus yielding more variety in the results.
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
-- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Stable-Diffusion-UI-Plugins/beta/scrolling-panes-1.8.plugin.js) by [Patrice](https://github.com/patriceac)**
+- **[Scrolling Panes](https://raw.githubusercontent.com/patriceac/Easy-Diffusion-Plugins/main/plugins/Patrice/scrolling-panes.plugin.js) by [Patrice](https://github.com/patriceac)**
     
     Allows editor and preview panes to scroll independently, and adds the ability to toggle the editor (more space available for images). Also moves the footer to its own "About" tab in the top navbar (required to make the dual panes layout feel more natural).
-    _[Github Repo](https://github.com/patriceac/Stable-Diffusion-UI-Plugins)_
+    _[Github Repo](https://github.com/patriceac/Easy-Diffusion-Plugins)_
 
 - **[RemoveHelpButtons](https://github.com/JeLuF/stable-diffusion-ui-plugins/blob/main/RemoveHelpButtons.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
