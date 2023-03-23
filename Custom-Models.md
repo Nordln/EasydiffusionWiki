@@ -7,7 +7,7 @@ Depending on the images used during the training, the models generate a differen
 ## Installing a model
 If you've downloaded a model, you can make it available to Stable Diffusion UI:
 - Copy the model file to `C:\stable-diffusion-ui\models\stable-diffusion`. The file should have the suffix `.ckpt` or `.safetensors`.
-- If the model comes with a `.yaml` file, please place that yaml file next to the model, with the same name. For e.g. if the model is `some-model.ckpt` (or `some-model.safetensors`), the yaml file should be `some-model.yaml`, placed next to it in the same folder.
+- If the model comes with a `.yaml` file, please place that yaml file next to the model, with the same name. For e.g. if the model is `some-model.ckpt` (or `some-model.safetensors`), then please rename the yaml file to `some-model.yaml`, and place it next to the model file in the same folder.
 - Reload your browser page. The model should be listed in the "Models" section in the image settings:
 
     ![image](https://user-images.githubusercontent.com/5852422/197419759-45cba5a7-58ef-4fff-a6b2-80536d7f609e.png)
