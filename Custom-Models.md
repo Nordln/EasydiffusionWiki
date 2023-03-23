@@ -12,7 +12,8 @@ If you've downloaded a model, you can make it available to Stable Diffusion UI:
 
     ![image](https://user-images.githubusercontent.com/5852422/197419759-45cba5a7-58ef-4fff-a6b2-80536d7f609e.png)
 
-**Troubleshooting - If you see black images**, please add this to the **end** of the `.yaml` file that came with your model:
+### Troubleshooting - Black images?
+Please add this to the **end** of the `.yaml` file that came with your model:
 ```yaml
 extra:
   attn_precision: "fp32"
