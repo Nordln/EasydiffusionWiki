@@ -19,7 +19,7 @@ extra:
   attn_precision: "fp32"
 ```
 
-For e.g. please see the end of this file for reference: https://github.com/easydiffusion/sdkit/blob/main/sdkit/models/models_db/configs/v2.1-inference-v.yaml
+For e.g. please see the end of this file for reference: https://github.com/easydiffusion/sdkit/blob/main/sdkit/models/models_db/configs/v2.1-inference-v.yaml#L69
 
 ## Web resources
 **Note:** These links lead to websites outside of the Stable Diffusion UI project.
