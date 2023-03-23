@@ -7,12 +7,18 @@ Depending on the images used during the training, the models generate a differen
 ## Installing a model
 If you've downloaded a model, you can make it available to Stable Diffusion UI:
 - Copy the model file to `C:\stable-diffusion-ui\models\stable-diffusion`. The file should have the suffix `.ckpt` or `.safetensors`.
+- If the model comes with a `.yaml` file, please place that yaml file next to the model, with the same name. For e.g. if the model is `some-model.ckpt`, the yaml file should be `some-model.yaml`, placed next to it in the same folder.
 - Reload your browser page. The model should be listed in the "Models" section in the image settings:
 
     ![image](https://user-images.githubusercontent.com/5852422/197419759-45cba5a7-58ef-4fff-a6b2-80536d7f609e.png)
 
-## Stable Diffusion v2 models
-Stable Diffusion v2 models are currently only supported in the beta version of the Stable Diffusion UI, with some restrictions. *After* joining our [discord server](https://discord.com/invite/u9yhsFmEkB), you can take a look at this [post](https://discord.com/channels/1014774730907209781/1023840914667483166/1046703577126678608) for details on how to enable the SD2 support.
+**If you see black images**, please add this to the **end** of the `.yaml` file that came with your model:
+```yaml
+extra:
+  attn_precision: "fp32"
+```
+
+For e.g. please see the end of this file for reference: https://github.com/easydiffusion/sdkit/blob/main/sdkit/models/models_db/configs/v2.1-inference-v.yaml
 
 ## Web resources
 **Note:** These links lead to websites outside of the Stable Diffusion UI project.
