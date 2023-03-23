@@ -58,7 +58,7 @@
 
 # Settings
 
-![image](https://user-images.githubusercontent.com/2499585/202213868-8137c365-5a1b-4dd2-ba9a-a5efb7f06dbd.png)
+![image](https://user-images.githubusercontent.com/844287/227230807-58edc7a0-5744-48c6-a6bb-3b06b21e8c8e.png)
 
 **Theme**: A color theme for the UI.
 
@@ -70,13 +70,13 @@
 
 **Open browser on startup**: Starts the default browser on startup with http://localhost:9000/ as URL.
 
-**Turbo Mode**: Generates images faster, but uses an additional 1 GB of GPU memory.
+**VRAM Usage Level**: *Low*, *Balanced*, and *High*. Increasing levels generate images faster, but uses additional GPU memory.
 
 **Use CPU (not GPU)**: Will force CPU-Rendering. Very slow compared to GTX/RTX-Cards.
 
 **Automatically pick the GPUs (experimental)**: Will select a GPU automatically.
 
-**GPUs to use (experimental)**: A List of available GPUs including the CUDA-ID.
+**GPUs to use**: A list of available GPUs including the CUDA-ID.
 
 **Use Full Precision**: Will use more GPU Memory, required for NVIDIA GTX 1650/1660.
 
