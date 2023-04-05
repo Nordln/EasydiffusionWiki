@@ -18,18 +18,16 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
     Modest scaling up, maintaining close ratio, with img2img to increase resolution of output while adding minor details.
     Maximum output is 1536 along one axis, but generally, things are kept at 1024x1024 and below.  One-click workflow!
-
-- **[Scaleup(preserve)](https://raw.githubusercontent.com/AvidGameFan/ed-plugins/master/scaleuppreserve.plugin.js) by Avidgamefan#4035**
-
-    Same as above, but with a low Prompt Strength, to preserve more details.
-
-- **[ScaleupMAX](https://raw.githubusercontent.com/AvidGameFan/ed-plugins/master/scaleupMAX.plugin.js) by Avidgamefan#4035**
-
-    Scales up to the largest resolution your card can handle, with one click. This requires you to test to determine your highest, maximum resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
+    UPDATE: Scaleup Preserve and MAX are now part of the main, single Scaleup plugin.  Click on the label to switch between
+    normal and preserve-details.  For the MAX resolution, this requires you to test to determine your highest, maximum 
+    resolution, and set it inside the script.  Currently defaulted to safe settings for the Nvidia 2060 Super with 8GB VRAM.
 
 - **[OutpaintIt](https://raw.githubusercontent.com/AvidGameFan/ed-plugins/master/OutpaintIt.plugin.js) by Avidgamefan#4035**
 
-    OutpaintIt generates a new area outside of your existing image, in any one of the 4 directions with one click. Fix those cut-off heads! As with the ScaleUp plugins, it is set up for 8GB VRAM limits by default; edit the file if you have more or less VRAM.
+    OutpaintIt generates a new area outside of your existing image, in any one of the 4 directions with one click -- or all 4
+    directions at once! Fix those cut-off heads! As with the ScaleUp plugins, it is set up for 8GB VRAM limits by default; edit
+    the file if you have more or less VRAM.
+    UPDATE: click on the label to change the number of images that are output with one click (batch mode), up to 5.
 
 - **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
