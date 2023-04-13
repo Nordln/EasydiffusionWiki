@@ -8,9 +8,11 @@ Depending on the images used during the training, the models generate a differen
 If you've downloaded a model, you can make it available to Stable Diffusion UI:
 - Copy the model file to the `models\stable-diffusion` folder (inside the installed folder). The file should have the suffix `.ckpt` or `.safetensors`.
 - If the model comes with a `.yaml` file, please place that yaml file next to the model, with the same name. For e.g. if the model is `some-model.ckpt` (or `some-model.safetensors`), then please rename the yaml file to `some-model.yaml`, and place it next to the model file in the same folder.
-- Reload your browser page. The model should be listed in the "Models" section in the image settings:
+- Refresh the model list using the "reload"-icon in the "Models" section in the image settings:
 
-    ![image](https://user-images.githubusercontent.com/5852422/197419759-45cba5a7-58ef-4fff-a6b2-80536d7f609e.png)
+    ![image](https://user-images.githubusercontent.com/5852422/231899233-cafd4449-e2a0-4a46-8308-b6ee4bc1cbfe.png)
+
+  The model should now be visible in the "Models" dropdown.
 
 ### Troubleshooting - Black images?
 Please add this to the **end** of the `.yaml` file that came with your model:
