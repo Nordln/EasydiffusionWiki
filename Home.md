@@ -7,6 +7,7 @@
 *  [[Inpainting]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
+*  [[xFormers]] (beta)
 
 ## Installation
 *  [[Troubleshooting]]
