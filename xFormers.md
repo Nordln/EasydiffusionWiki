@@ -2,13 +2,14 @@ Support for [xFormers](https://github.com/facebookresearch/xformers) is availabl
 
 xFormers speeds up image generation, but can sometimes produce non-deterministic results (i.e. the same prompt+settings may not always produce the same results as before).
 
-You can try these steps:
+# Installing xFormers
 1. Double-click `Developer Console.cmd` (on Windows) or run `./developer_console.sh` (on Linux/Mac)
 2. Run `python -m pip show torch torchvision` (**important:** please make a note of these two versions, incase you need to revert back to them)
 3. Run `python -m pip install xformers==0.0.16`
 
 That should be enough, you can now start Easy Diffusion like normal.
 
+# Removing/uninstalling xFormers
 If you face an issues, please rollback by:
 1. Double-click `Developer Console.cmd` (on Windows) or run `./developer_console.sh` (on Linux/Mac)
 2. Run `python -m pip uninstall xformers`
