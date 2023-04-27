@@ -6,6 +6,7 @@
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
 *  [[Custom Modifiers]]
+*  [[xFormers]]
 
 ## Installation
 *  [[Troubleshooting]]
