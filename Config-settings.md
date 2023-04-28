@@ -9,6 +9,7 @@ During installation, the installer tries to start a web server on port `0.0.0.0:
   }
 }
 ```
+The `listen_to_network` setting configures whether to only listen on `localhost` (false) or on all interfaces (true).
 
 ## Prevent browser start
 If you're installing on a headless system, you might need to prevent the browser startup that normally occurs during installation. To do so, create a file `config.json` in the `scripts` folder with this content:
