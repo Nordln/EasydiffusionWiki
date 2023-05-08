@@ -103,3 +103,8 @@ This is visible if the user hovers with the mouse over a rendered image.
 **Upscale**: Re-Renders the image with 4x-Upscaling enabled. Visible if images wasn't already upscaled.
 
 **Fix Faces**: Fixes incorrect faces and eyes using GFPGAN.
+
+# NSFW Filter
+You can prevent NSFW images from being displayed by enabling the `Blur NSFW` option in the Settings tab.
+
+![image](https://user-images.githubusercontent.com/844287/236732669-4996a782-04c1-4d57-b2c2-e49e43c563dd.png)
