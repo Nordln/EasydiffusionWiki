@@ -6,8 +6,8 @@ xFormers speeds up image generation, but can sometimes produce non-deterministic
 1. Double-click `Developer Console.cmd` (on Windows) or run `./developer_console.sh` (on Linux/Mac)
 2. Run `python -m pip show torch torchvision` (**important:** please make a note of these two versions, incase you need to revert back to them)
 3. Run the follow command, depending on the version of `torch` displayed in the previous command:
-a. for `torch` 2.0.0: `python -m pip install xformers==0.0.18`
-b. for `torch` 1.13.1: `python -m pip install xformers==0.0.16`
+- for `torch` 2.0.0: `python -m pip install xformers==0.0.18`
+- for `torch` 1.13.1: `python -m pip install xformers==0.0.16`
 
 That should be enough, you can now start Easy Diffusion like normal.
 
