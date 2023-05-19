@@ -6,12 +6,12 @@
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
 *  [[Custom Modifiers]]
-*  [[xFormers]]
 
 ## Installation
 *  [[Troubleshooting]]
 *  [[Config settings]]
 *  [[The beta channel]]
+*  [[xFormers]]
 
 ## Downloadable Content
 * [[Custom Models]]
