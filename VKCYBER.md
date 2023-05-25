@@ -1,1 +1,0 @@
-Image generator by Text
