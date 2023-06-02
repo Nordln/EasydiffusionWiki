@@ -28,14 +28,14 @@ If you use multiple Stable Diffusion UIs, you can save disk space by keeping a c
 
 In the steps below, please change `C:\EasyDiffusion` to the path where you've installed Easy Diffusion on your PC.
 
-On Windows:
+### On Windows:
 1. Press Win+R, then type `cmd` and press Enter.
 2. Delete the `C:\EasyDiffusion\models\stable-diffusion` folder.
 3. Then type and run: `mklink /j "C:\EasyDiffusion\models\stable-diffusion" "D:\CommonStableDiffusion\models\Stable-diffusion"`
 
 Please set the second parameter to the actual folder in your PC, which contains the stable diffusion model files.
 
-On Linux/Mac:
+### On Linux/Mac:
 1. Open the terminal.
 2. Delete the `/path/to/easy-diffusion/models/stable-diffusion` folder.
 3. Then type and run: `ln -s "/path/to/common/models/Stable-diffusion" "/path/to/easy-diffusion/models/stable-diffusion"`
