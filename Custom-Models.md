@@ -23,6 +23,25 @@ extra:
 
 For e.g. please see the end of this file for reference: https://github.com/easydiffusion/sdkit/blob/main/sdkit/models/models_db/configs/v2.1-inference-v.yaml#L69
 
+## Sharing model files with other UIs on your PC
+If you use multiple Stable Diffusion UIs, you can save disk space by keeping a common copy of the model files. You can create a linked folder to share the models folder between the different Stable Diffusion software.
+
+In the steps below, please change `C:\EasyDiffusion` to the path where you've installed Easy Diffusion on your PC.
+
+On Windows:
+1. Press Win+R, then type `cmd` and press Enter.
+2. Delete the `C:\EasyDiffusion\models\stable-diffusion` folder.
+3. Then type and run: `mklink /j "C:\EasyDiffusion\models\stable-diffusion" "D:\CommonStableDiffusion\models\Stable-diffusion"`
+
+Please set the second parameter to the actual folder in your PC, which contains the stable diffusion model files.
+
+On Linux/Mac:
+1. Open the terminal.
+2. Delete the `/path/to/easy-diffusion/models/stable-diffusion` folder.
+3. Then type and run: `ln -s "/path/to/common/models/Stable-diffusion" "/path/to/easy-diffusion/models/stable-diffusion"`
+
+Please set the first parameter to the actual folder in your PC, which contains the stable diffusion model files.
+
 ## Web resources
 **Note:** These links lead to websites outside of the Stable Diffusion UI project.
 
