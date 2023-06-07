@@ -29,10 +29,11 @@ Use curly brackets in prompts to try different words, e.g. the prompt `man ridin
 ![image](https://user-images.githubusercontent.com/5852422/196795838-88dec248-dbbc-4681-b00f-c16444e80a73.png)
 
 **Prompt Matrix** - Separate your prompt with the `|` character to explore variations quickly. E.g. `girl holding a rose | illustration | cinematic lighting` creates four task combinations automatically: 
-    * girl holding a rose
-    * girl holding a rose, illustration
-    * girl holding a rose, cinematic lighting 
-    * girl holding a rose, illustration, cinematic lighting
+
+* `girl holding a rose`
+* `girl holding a rose, illustration`
+* `girl holding a rose, cinematic lighting`
+* `girl holding a rose, illustration, cinematic lighting`
 
 ## Negative prompts
 The negative prompt can be used to describe what you don't want to see in the image. The AI sometimes ignores parts of the negative prompt, especially if the prompt and negative prompt contain very similar terms. In other cases, the negative prompt has big impact on the composition of the image. For example, if you put "shoes" into the negative prompt, you might get a barefoot person - or you get an image where the feet are out of frame. 
