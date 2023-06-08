@@ -7,12 +7,12 @@
 *  [[Inpainting]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
-*  [[xFormers]]
 
 ## Installation
 *  [[Troubleshooting]]
 *  [[Config settings]]
 *  [[The beta channel]]
+*  [[xFormers]]
 
 ## Downloadable Content
 * [[Custom Models]]
