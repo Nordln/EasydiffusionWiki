@@ -1,6 +1,3 @@
-🔥🔥This feature is currently only available on the beta branch, which might be instable and break your installation!🔥🔥
-
-----
 
 Here is the format used for the files and produced by the copy setting button.
 It should make it easy to exchange settings in chat and then save to file and drop into the interface to load.
