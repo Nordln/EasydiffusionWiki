@@ -28,14 +28,8 @@ For Windows: Please download and extract basicsr from [here](https://github.com/
 
 For Linux: Please contact on the [discord server](https://discord.com/invite/u9yhsFmEkB).
 
-## ClobberError: This transaction has incompatible packages due to a shared path
-Please try creating a folder named "profile" inside the "stable-diffusion-ui" folder, and retry the installation.
-
-If that doesn't work - On Windows, please ensure that you had placed the `stable-diffusion-ui` folder after unzipping to the root of C: or D: (or any drive). For e.g. `C:\stable-diffusion-ui`. **Note:** This has to be done **before** you start the installation process. If you have already installed (and are facing this error), please delete the installed folder, and start fresh by unzipping and placing the folder at the top of your drive.
-
-This error can also be caused if you already have conda/miniconda/anaconda installed, due to package conflicts. Please open your Anaconda Prompt, and run `conda clean --all` to clean up unused packages.
-
-If nothing works, this could be due to a corrupted installation. Please try reinstalling this, by deleting the installed folder, and unzipping from the downloaded zip file.
+## Could not load the Qt platform plugin "xcb"
+In Linux, please run this before running start.sh: `export QT_QPA_PLATFORM=offscreen`
 
 ## ImportError: DLL load failed while importing cv2: The specified module could not be found.
 If you're running Windows 10 N or Windows 10 KN (or any of its Pro, Education, ... variants), [the Microsoft Media Feature Pack](https://www.microsoft.com/en-us/software-download/mediafeaturepack) is needed to run Stable Diffusion.
