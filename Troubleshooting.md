@@ -37,31 +37,6 @@ If you're running Windows 10 N or Windows 10 KN (or any of its Pro, Education, .
 ## Killed uvicorn server:app --app-dir ... --port 9000 --host 0.0.0.0
 This happens if your PC ran out of RAM. Stable Diffusion requires a lot of RAM, and requires atleast 10 GB of RAM to work well. You can also try closing all other applications before running Stable Diffusion UI.
 
-## Green image generated
-This usually happens if you're running NVIDIA 1650 or 1660 Super. To solve this, please close and run the Stable Diffusion command on your computer. If you're using the older Docker-based solution (v1), please upgrade to v2: https://github.com/cmdr2/stable-diffusion-ui/tree/v2#installation
-
-If you're still seeing this error, please try enabling "Full Precision" under "Advanced Settings" in the Stable Diffusion UI.
-
-## RuntimeError: Found no NVIDIA driver on your system:
-If you have an NVIDIA GPU and the latest [NVIDIA driver](http://www.nvidia.com/Download/index.aspx), please ensure that you've installed [nvidia-container-toolkit](https://stackoverflow.com/a/58432877). (Thanks [u/exintrovert420](https://www.reddit.com/user/exintrovert420/))
-
-## RuntimeError: CUDA error: unknown error
-Please ensure that you have an NVIDIA GPU and the latest [NVIDIA driver](http://www.nvidia.com/Download/index.aspx), and that you've installed [nvidia-container-toolkit](https://stackoverflow.com/a/58432877).
-
-Also, if you are using WSL (Windows), please ensure you have the latest WSL kernel by running `wsl --shutdown` and then `wsl --update`. (Thanks [AndrWeisR](https://github.com/AndrWeisR))
-
-## ModuleNotFoundError: No module named 'gfpgan'
-If you have moved your installation to a different folder or drive, please follow these steps *exactly*:
-1. Open in `notepad` the `stable-diffusion-ui\stable-diffusion\env\Lib\site-packages\easy-install.pth`
-2. Change the paths from the old path to the new path. For e.g. if your previous folder was `C:\stable-diffusion-ui`, and the new location is `E:\ai\stable-diffusion-ui`, then change the paths to (**change the path to where your new folder is**):
-```
-E:\ai\stable-diffusion-ui\stable-diffusion\src\taming-transformers
-E:\ai\stable-diffusion-ui\stable-diffusion\src\clip
-E:\ai\stable-diffusion-ui\stable-diffusion\src\realesrgan
-E:\ai\stable-diffusion-ui\stable-diffusion\src\gfpgan
-```
-3. Save this file, and try running the project again. The same approach should work for Linux as well.
-
 # For support queries
 ## Entering a conda environment in an existing installation
 This will give you an activated conda environment in the terminal, so you can run commands and force-install any packages, if required.
