@@ -40,7 +40,7 @@ The negative prompt can be used to describe what you don't want to see in the im
 
 A useful negative prompt is:
 
-`Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ((((mutated hands and fingers)))), (((out of frame)))`
+`Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, mutated hands and fingers, out of frame`
 
 ## Further reading
 [The PromptBook](https://openart.ai/promptbook) from OpenArt, a platform and community dedicated to AI-native content, and is written by members from their community.
