@@ -14,3 +14,6 @@ Clip Skip only works for SD1.x based models. SD2.x based models don't use CLIP a
 
 ### Same settings as above, but with Clip Skip enabled
 ![image](https://github.com/cmdr2/stable-diffusion-ui/assets/5852422/aaea5159-e33b-4fff-a18b-bac99f2583db)
+
+## Note
+Enabling the Clip Skip toggle corresponds to the  `clip skip = 2` setting in other implementations of Stable Diffusion
