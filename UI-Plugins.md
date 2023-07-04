@@ -96,7 +96,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 
 - **[RemoveHelpButtons](https://github.com/JeLuF/stable-diffusion-ui-plugins/blob/main/RemoveHelpButtons.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
-    Remove the help buttons from the image settings and other areas of the UI. __[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
+    Remove the help buttons from the image settings and other areas of the UI. _[Github Repo](https://github.com/JeLuF/stable-diffusion-ui-plugins/)_
 
 - **[Switch Width & Height Settings](https://raw.githubusercontent.com/ogmaresca/easydiffusion-plugins/main/ui/switch-height-width.plugin.js) by [ogmaresca](https://github.com/ogmaresca)**
 
