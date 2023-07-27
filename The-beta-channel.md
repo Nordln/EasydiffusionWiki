@@ -21,6 +21,16 @@ After you restart, you should see a `(beta)` label next to the version number, i
 
 ![image](https://user-images.githubusercontent.com/844287/227228821-f361fb8f-8ff2-4174-9aad-33353a8a4af5.png)
 
+# Test Diffusers in beta
+The "Diffusers" version of beta is our new upcoming engine, and contains a lot of new features like LoRA, textual inversion embeddings, SD-XL, tiling etc.
+
+You can enable this by following these steps:
+1. Enable "Beta channel" in the Settings tab of the UI.
+2. Then enable the "Test Diffusers" setting just under that.
+3. Press `Save`.
+4. Close Easy Diffusion by closing the black-and-white command prompt window (or terminal).
+5. Restart Easy Diffusion. You'll now be in the diffusers version of Easy Diffusion.
+
 # Leaving the beta program
 You can return to the stable version by unchecking the beta-channel checkbox in the Settings tab.
 
@@ -31,13 +41,3 @@ the beta program by editing the configuration manually:
 2. In this directory, edit the two files `config.json` and `config.bat` (`config.sh` if you're on Linux).
     Replace the word `beta` in both files by `main`.
 3. Restart the Easy Diffusion application.
-
-# Test Diffusers in beta
-The "Diffusers" version of beta is our new upcoming engine, and contains a lot of new features like LoRA, textual inversion embeddings, SD-XL, tiling etc.
-
-You can enable this by following these steps:
-1. Enable "Beta channel" in the Settings tab of the UI.
-2. Then enable the "Test Diffusers" setting just under that.
-3. Press `Save`.
-4. Close Easy Diffusion by closing the black-and-white command prompt window (or terminal).
-5. Restart Easy Diffusion. You'll now be in the diffusers version of Easy Diffusion.
