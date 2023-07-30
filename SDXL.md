@@ -9,4 +9,7 @@ Steps:
 
 Finally, in the Easy Diffusion UI, click the "refresh" icon next to the Models dropdown, and select the downloaded model and generate the image.
 
-**Tip:** If you get "Out of Memory" errors, try setting the `VRAM Usage Level` setting to `"low"` in the Settings tab, and press `Save`.
+# Usage tips:
+1. If you get "Out of Memory" errors, try setting the `VRAM Usage Level` setting to `"low"` in the Settings tab, and press `Save`.
+2. Use small values for `Prompt Strength` when using the "Refiner" model. E.g. 0.2
+3. The "Refiner" model supports text prompt, along with an image. You can use text to describe how your image should be refined.
