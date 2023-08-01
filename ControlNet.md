@@ -13,14 +13,14 @@ It'll take a while during the first image, since it'll download about 1.3 GB of 
 
 ## Pose from images:
 You can also set a photo of a person in a particular pose, and make the AI follow that pose. For e.g.
-1. Download the attached photo of a man, and set that as the control image
+1. Download [this photo of a man](https://user-images.githubusercontent.com/844287/257520603-46783770-a596-4708-9821-1152c0c3c63a.png), and set that as the control image
 2. Set `Filter to apply` to `Open Pose` (the first one). This will automatically select `OpenPose` as the controlnet model.
 3. Type `Knight in black armor` in the prompt box (at the top), and use `1873330527` as the seed, and `euler_a` with 25 steps, and `SD 1.4` model (or any other SD model).
 5. Make an image.
 
 ## Custom pose images:
 You can also use images generated in the OpenPose format, e.g. from the civitai poses category. For e.g.
-1. Download the attached openpose photo (stick figure), and set that as the control image.
+1. Download [this openpose photo](https://user-images.githubusercontent.com/844287/257520652-08d1c52c-7455-49fc-9651-352d062de7b9.png) (stick figure), and set that as the control image.
 2. Set `Filter to apply` to `None`.
 3. Set `Model` to `Open Pose`
 4. Type `Knight in black armor` in the prompt box (at the top), and use `1873330527` as the seed, and `euler_a` with 25 steps, and `SD 1.4` model (or any other SD model).
