@@ -30,11 +30,14 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 5. Make an image.
 
 # Resources:
-**Painting of a girl:** 
+**Painting of a girl:**
+
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/517c43a6-2253-4f92-a75b-b7f18a1e8581)
 
-**Man posture:** 
+**Man posture:**
+
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/46783770-a596-4708-9821-1152c0c3c63a)
 
-**OpenPose image:** 
+**OpenPose image:**
+
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/08d1c52c-7455-49fc-9651-352d062de7b9)
