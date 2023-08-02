@@ -45,5 +45,5 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 here is a website with downloadable stick figure pose images for using with openpose
 https://openposes.com/
 
-here is a website where you can customize your own pose. In exterme detail https://openposeai.com/
+here is a website where you can customize your own pose. In extreme detail https://openposeai.com/
 ![bandicam 2023-08-02 12-02-38-684](https://github.com/easydiffusion/easydiffusion/assets/48932550/c10a1628-885a-46b5-9c8a-27007c87c148)
