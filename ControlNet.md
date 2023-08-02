@@ -41,3 +41,6 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 **OpenPose image:**
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/08d1c52c-7455-49fc-9651-352d062de7b9)
+
+here is a website with downloadable stick figure pose images for using with openpose
+https://openposes.com/
