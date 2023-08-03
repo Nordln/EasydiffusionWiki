@@ -24,9 +24,12 @@ After you restart, you should see a `(beta)` label next to the version number, i
 # Test Diffusers in beta
 The "Diffusers" version of beta is our new upcoming engine, and contains a lot of new features like LoRA, textual inversion embeddings, SD-XL, tiling etc.
 
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/0a90b655-56db-4a32-82dd-41a0417a2704)
+
+
 You can enable this by following these steps:
 1. Enable "Beta channel" in the Settings tab of the UI.
-2. Then enable the "Test Diffusers" setting just under that.
+2. Then make sure that `Use the new v2.6 engine (diffusers)` is `ON`.
 3. Press `Save`.
 4. Close Easy Diffusion by closing the black-and-white command prompt window (or terminal).
 5. Restart Easy Diffusion. You'll now be in the diffusers version of Easy Diffusion.
