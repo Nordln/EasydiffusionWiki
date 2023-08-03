@@ -22,7 +22,7 @@ After you restart, you should see a `(beta)` label next to the version number, i
 ![image](https://user-images.githubusercontent.com/844287/227228821-f361fb8f-8ff2-4174-9aad-33353a8a4af5.png)
 
 # Test Diffusers in beta
-The "Diffusers" version of beta is our new upcoming engine, and contains a lot of new features like LoRA, textual inversion embeddings, SD-XL, tiling etc.
+The "Diffusers" version of beta is our new engine (v2.6), and contains a lot of new features like LoRA, ControlNet, textual inversion embeddings, SD-XL, tiling etc.
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/0a90b655-56db-4a32-82dd-41a0417a2704)
 
