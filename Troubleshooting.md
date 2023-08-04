@@ -37,6 +37,18 @@ If you're running Windows 10 N or Windows 10 KN (or any of its Pro, Education, .
 ## Killed uvicorn server:app --app-dir ... --port 9000 --host 0.0.0.0
 This happens if your PC ran out of RAM. Stable Diffusion requires a lot of RAM, and requires atleast 10 GB of RAM to work well. You can also try closing all other applications before running Stable Diffusion UI.
 
+## The revocation function was unable to check revocation because the revocation server was offline
+A temporary workaround is to disable SSL checks. Run this in the developer console:
+```
+git config --global http.sslBackend schannel
+git config --global http.sslVerify false
+```
+To re-enable SSL checks, run:
+```
+git config --global http.sslVerify true
+```
+Disabling SSL checks can enable attackers to inject malware into your downloads.
+
 # For support queries
 ## Entering a conda environment in an existing installation
 This will give you an activated conda environment in the terminal, so you can run commands and force-install any packages, if required.
