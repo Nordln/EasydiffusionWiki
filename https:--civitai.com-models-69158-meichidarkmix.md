@@ -1,0 +1,1 @@
+https://civitai.com/models/69158/meichidarkmix
