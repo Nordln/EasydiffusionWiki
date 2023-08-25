@@ -2,6 +2,8 @@ Support for [xFormers](https://github.com/facebookresearch/xformers) is availabl
 
 xFormers speeds up image generation, but can sometimes produce non-deterministic results (i.e. the same prompt+settings may not always produce the same results as before).
 
+**Important!!** xFormers will only help on PCs with NVIDIA GPUs (or AMD with ROCm, if you've installed it). It is not useful on CPU-only computers or M1/M2 Macs.
+
 # Installing xFormers
 1. Double-click `Developer Console.cmd` (on Windows) or run `./developer_console.sh` (on Linux/Mac)
 2. Run `python -m pip show torch torchvision` (**important:** please make a note of these two versions, incase you need to revert back to them)
