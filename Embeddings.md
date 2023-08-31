@@ -3,7 +3,7 @@
 An embedding can be used as a word in the prompt (or negative prompt) used to make an image. You can use multiple embeddings in the same prompt.
 
 ## How to use
-1. Download the embedding and put them into the `models/embeddings` folder.
+1. Download the embedding model file and put it into the `models/embeddings` folder.
 2. Click the refresh icon ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/64d7c2a0-8f9a-4b37-8cff-6e3ba29304a0) next to the Stable Diffusion models dropdown.
 3. Add the embedding to the prompt by clicking the `+ Embedding` button above the prompt box
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/95759cb4-c654-4808-95e7-0072352c5a33)
