@@ -56,7 +56,7 @@
   * RealESRGAN_x4plus is general-purpose
   * RealESRGAN_x4plus_anime_6B is optimized for anime
 
-* **Show only corrected image**: Shows only the final image, e.g. the scaled up image. Disable to see both the images, i.e. the image before applying "fix faces" or "upscale", as well as the final image.
+* **Show only corrected image**: Shows only the final image, e.g. the scaled up/fixed image. Disable to see both the images, i.e. the image before applying "fix faces" or "upscale", as well as the final image.
 
 # Settings
 
