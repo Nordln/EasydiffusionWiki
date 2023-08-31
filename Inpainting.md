@@ -1,4 +1,4 @@
-**Inpainting** is a technique in which the AI only draws in a selected part of the initial image, while keeping other parts of the
+**Inpainting** is a technique in which the AI draws only in a selected part of the initial image, while keeping other parts of the
 initial image intact.
 
 To use inpainting, first select an initial image using the `Browse` button, then click the `Inpaint` button. Then highlight the area (called a "mask") which the AI should draw into, and then press `Save`.
