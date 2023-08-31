@@ -1,17 +1,14 @@
-**Experimental support for multiple GPUs!**
+Easy Diffusion automatically runs on multiple GPUs by default (if your PC has multiple GPUs). For e.g. two tasks will run in parallel across two GPUs (if you have them).
 
 ![image](https://user-images.githubusercontent.com/844287/202389537-3114474a-a850-49c7-800d-8db891e93fd9.png)
 
 ![image](https://user-images.githubusercontent.com/844287/202389573-8406ef69-0f58-402c-a6b2-2fbc135c0c89.png)
 
-The project will now automatically run on multiple GPUs by default, if your PC has them. For e.g. two tasks will run in parallel across two GPUs, if you have them.
 
 ## How can I use this?
-To use this feature, please start one browser tab per GPU, and spread your image tasks across the browser tabs. Start your tasks in each browser tab, and they'll run in parallel on your GPUs.
+Easy Diffusion will automatically run on multiple GPUs, if you PC has multiple GPUs. No action is required on your part.
 
-We're working on removing the need to open multiple browser tabs.
-
-For finer control, you can manually choose which GPUs you want in the `Settings` tab. Otherwise the program will decide which GPUs to run on, based on their free memory.
+If you want to manually choose which GPUs are used for generating images, you can open the `Settings` tab and disable `Automatically pick the GPUs`.
 
 ## Why don't I see this option in the Settings tab?
 This multi-GPU option will be visible in the UI only if you have more than 1 GPU. Once you change your GPU settings, please press the Save button.
