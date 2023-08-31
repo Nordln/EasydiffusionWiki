@@ -10,7 +10,7 @@
 
 ## Intermediate
 *  [[Custom Models]]
-*  [[Advanced Prompts]]
+*  [[Prompt Syntax]]
 *  [[Embeddings]]
 *  [[LoRA]]
 *  [[SDXL]]
