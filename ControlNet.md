@@ -6,11 +6,10 @@ While this sounds similar to image-to-image, ControlNets allow the AI to extract
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/d871616f-a3fc-470e-84b6-219443494db2)
 
 # Quick guide to using ControlNets in Easy Diffusion
-1. Enable beta and diffusers: https://github.com/easydiffusion/easydiffusion/wiki/The-beta-channel#test-diffusers-in-beta
-2. In the `Image Settings` panel, set a `Control Image`. This can be any image that you want the AI to follow. For e.g. download [this painting](https://user-images.githubusercontent.com/844287/257520525-517c43a6-2253-4f92-a75b-b7f18a1e8581.png) and set that as the control image.
-3. Then set `Filter to apply` to `Canny`. This will automatically select `Canny` as the controlnet model as well.
-4. Type `Emma Watson` in the prompt box (at the top), and use `1808629740` as the seed, and `euler_a` with 25 steps and `SD 1.4` model (or any other Stable Diffusion model).
-5. Make an image.
+1. In the `Image Settings` panel, set a `Control Image`. This can be any image that you want the AI to follow. For e.g. download [this painting](https://user-images.githubusercontent.com/844287/257520525-517c43a6-2253-4f92-a75b-b7f18a1e8581.png) and set that as the control image.
+2. Then set `Filter to apply` to `Canny`. This will automatically select `Canny` as the controlnet model as well.
+3. Type `Emma Watson` in the prompt box (at the top), and use `1808629740` as the seed, and `euler_a` with 25 steps and `SD 1.4` model (or any other Stable Diffusion model).
+4. Make an image.
 
 It'll take a while during the first image, since it'll download about 1.3 GB of models for the canny controlnet.
 
