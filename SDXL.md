@@ -1,10 +1,14 @@
-SDXL can create larger images with better image quality.
+SDXL models are trained to create larger images with better image quality. But they can consume more GPU and system RAM, as compared to the Stable Diffusion version 1 or 2 models.
+
+SDXL models can also make good images at 512x512 resolution, so they're often a good replacement for SD 1 or 2 models, in terms of image quality.
 
 Steps:
 1. Download whichever SDXL model you want:
 * Base model (works for text-to-image, image-to-image, and inpainting): https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
 * Refiner model (image-to-image only): https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors
 2. Save the model to the `models/stable-diffusion` folder.
+
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/7425c9e7-c35a-489e-bcf5-c80ca83dd175)
 
 Finally, in the Easy Diffusion UI, click the "refresh" icon next to the Models dropdown, and select the downloaded model and generate the image.
 
