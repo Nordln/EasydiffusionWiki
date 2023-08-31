@@ -1,4 +1,4 @@
-**xFormers** can speed up image generation (nearly twice as fast) and use less GPU memory. It's widely used and works quite well, but it can sometimes produce different images (for the same prompt+settings) compared to what you generated previously.
+**[xFormers](https://github.com/facebookresearch/xformers)** can speed up image generation (nearly twice as fast) and use less GPU memory. It's widely used and works quite well, but it can sometimes produce different images (for the same prompt+settings) compared to what you generated previously.
 
 **Important!!** xFormers will only help on PCs with NVIDIA GPUs (or AMD with ROCm, if you've installed it). It is not useful on CPU-only computers or M1/M2 Macs.
 
