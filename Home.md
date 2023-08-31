@@ -1,6 +1,7 @@
 # Welcome to the Easy Diffusion wiki!
 
 ## Basics
+*  [Installation](https://github.com/easydiffusion/easydiffusion#installation)
 *  [[How to Use]]
 *  [[UI Overview]]
 *  [[Writing Prompts]]
