@@ -10,6 +10,12 @@ An embedding can be used as a word in the prompt used to make an image.
 4. Then click the embedding to use. It'll insert the embedding word in the prompt textbox. You can change where the word is inserted (e.g. at the beginning of the prompt) by changing the `Mode` (top-right in the Embeddings popup).
 5. Generate an image.
 
+## Negative Embedding
+You can also follow the same process to add negative embeddings. This will tell the AI to avoid that concept in the generated image.
+
+Expand the `Negative Prompt` section, then click `+ Negative Embedding`, and follow the same steps as mentioned above.
+
+## Tips
 You can also just type the embedding word in the prompt (by using the embedding model filename, without the extension). Please replace any spaces in the filename with underscore `_`.
 
 ## Web Resources
