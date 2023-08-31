@@ -8,9 +8,9 @@ SDXL models can also make good images at 512x512 resolution, so they're often a 
 * Refiner model (image-to-image only): https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors
 2. Save the model to the `models/stable-diffusion` folder.
 
-![image](https://github.com/easydiffusion/easydiffusion/assets/844287/7425c9e7-c35a-489e-bcf5-c80ca83dd175)
-
 Finally, in the Easy Diffusion UI, click the "refresh" icon next to the Models dropdown, and select the downloaded model and generate the image.
+
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/7425c9e7-c35a-489e-bcf5-c80ca83dd175)
 
 # Usage tips:
 1. If you get "Out of Memory" errors, try setting the `VRAM Usage Level` setting to `"low"` in the Settings tab, and press `Save`.
