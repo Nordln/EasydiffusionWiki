@@ -6,7 +6,7 @@
 *  [[Inpainting]]
 *  [[Samplers]]
 *  [[Summary of every UI option|UI Overview]]
-*  [[Troubleshooting]]
+*  [[Common error messages|Troubleshooting]]
 
 ## Intermediate
 *  [[Custom Models]]
