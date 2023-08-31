@@ -16,10 +16,8 @@ You can also put the modifiers directly into your prompt to get many different s
 ![image](https://user-images.githubusercontent.com/5852422/196818870-c44ca641-bc3e-45a9-91a5-c66a7b671d1f.png)
 
 ## Emphasizing parts of the prompt
-You can provide the importance ("weight") as numbers: `girl on a swing:1.2 green grass:1.0 pink trousers:0.8`
-The first weight impacts the entire beginning of the prompt. In the above example, `girl on a swing` has a weight of 1.2, `green grass` has a weight of 1.0 and `pink trousers` has a weight of 0.8.
-
-The weight acts a separator, so you don't need a comma behind it. There *must* be a space character after the weight. If you use a comma or a bracket, you will get a warning like `WARNING cuda:0 Warning: '2.0,' is not a value, are you missing a space?`
+You can provide the importance ("weight") as numbers: `girl on a (swing)1.2 (green grass)1.0 (pink trousers)0.8`
+Enclose the words with parentheses (round brackets) and put the weight after them. For e.g. in the above example, `swing` has a weight of 1.2, `green grass` has a weight of 1.0 and `pink trousers` has a weight of 0.8.
 
 ## Testing variations of prompts
 Use curly brackets in prompts to try different words, e.g. the prompt `man riding a {horse,motorcycle}` creates two rendering jobs: One for `man riding a horse` and one for `man riding a motorcycle`:
