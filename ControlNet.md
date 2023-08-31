@@ -31,16 +31,3 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 # Resources:
 * **A collection of pose images**: https://openposes.com/
 * **Make your custom pose images**: https://app.posemy.art/ or https://openposeai.com/
-
-**Painting of a girl:**
-
-![image](https://github.com/easydiffusion/easydiffusion/assets/844287/517c43a6-2253-4f92-a75b-b7f18a1e8581)
-
-**Man posture:**
-
-![image](https://github.com/easydiffusion/easydiffusion/assets/844287/46783770-a596-4708-9821-1152c0c3c63a)
-
-**OpenPose image:**
-
-![image](https://github.com/easydiffusion/easydiffusion/assets/844287/08d1c52c-7455-49fc-9651-352d062de7b9)
-
