@@ -8,10 +8,10 @@ The modifiers are organized into categories, so please explore the different sty
 
 ## Options
 
-**Cogwheel Icon**: To define custom image modifiers. You can read more about custom modifiers at [this link](https://github.com/easydiffusion/easydiffusion/wiki/Custom-Modifiers).
+* **Settings** ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/c08b7590-bc54-4240-bb2f-561a52e17351): To define custom image modifiers. You can read more about custom modifiers at [this link](https://github.com/easydiffusion/easydiffusion/wiki/Custom-Modifiers).
 
-**Image Style**: To change the type of icon for the pre-defined modifiers.
+* **Image Style**: To change the type of icon for the pre-defined modifiers.
   * Face: Shows faces for the icons in the style of the modifiers.
   * Landscapes: Shows landscapes for the icons in the style of the modifiers.
 
-**Thumbnail Size**: A slider to change the size of the clickable modifiers.
+* **Thumbnail Size**: A slider to change the size of the clickable modifiers.
