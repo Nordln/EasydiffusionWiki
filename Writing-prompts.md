@@ -3,8 +3,6 @@ Keep your prompts short don't write full sentences. Separate different aspects o
 
 `girl on a swing, green grass, pink trousers`
 
-Stable Diffusion only takes 75 "tokens" into account. A token can be an entire word, but some long words can also count as two or more tokens. Each digit of a number is a token, so `1920s` counts as 5 tokens.
-
 Due to the way Stable Diffusion was trained, there are a few words that often improve the quality of images, e.g. `highly detailed` or `trending on artstation`:
 
 ![image](https://user-images.githubusercontent.com/5852422/196815094-2a3d075e-a641-43b2-a773-26ebbd249fb7.png)
