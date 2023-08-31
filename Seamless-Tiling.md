@@ -1,6 +1,13 @@
 "**Seamless Tiling**" refers to the technique of creating a visually continuous pattern that can be repeated indefinitely without any noticeable seams or borders between the tiles. In other words, it ensures that when the pattern is tiled or repeated, the individual tiles fit together seamlessly, creating a cohesive and uninterrupted design.
 
-With Easy Diffusion, you can create tiles which you can place next to themselves:
+With Easy Diffusion, you can create tiles which you can place next to themselves.
+
+## How to use
+Enable `Seamless Tiling` by choosing `Vertical`, or `Horizontal` or `Both` in the `Image Settings` panel:
+
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/1e503e70-b041-4959-ba5b-c37f99eacdca)
+
+## Examples of seamless tiling
 
 ![image](https://github.com/cmdr2/stable-diffusion-ui/assets/5852422/33de4471-0801-49a4-8d3a-14f59acd5462)
 
