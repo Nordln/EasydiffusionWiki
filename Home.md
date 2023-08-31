@@ -1,4 +1,4 @@
-# Welcome to the stable-diffusion-ui wiki!
+# Welcome to the Easy Diffusion wiki!
 
 ## Using the Software
 *  [[How to Use]]
