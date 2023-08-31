@@ -29,6 +29,9 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 5. Make an image.
 
 # Resources:
+* **A collection of pose images**: https://openposes.com/
+* **Make your custom pose images**: https://app.posemy.art/ or https://openposeai.com/
+
 **Painting of a girl:**
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/517c43a6-2253-4f92-a75b-b7f18a1e8581)
@@ -41,8 +44,3 @@ You can also use images generated in the OpenPose format, e.g. from the civitai 
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/08d1c52c-7455-49fc-9651-352d062de7b9)
 
-here is a website with downloadable stick figure pose images for using with openpose
-https://openposes.com/
-
-here is a website where you can customize your own pose. In extreme detail https://openposeai.com/
-![bandicam 2023-08-02 12-02-38-684](https://github.com/easydiffusion/easydiffusion/assets/48932550/c10a1628-885a-46b5-9c8a-27007c87c148)
