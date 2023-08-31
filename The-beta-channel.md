@@ -21,7 +21,10 @@ After you restart, you should see a `(beta)` label next to the version number, i
 ![image](https://user-images.githubusercontent.com/844287/227228821-f361fb8f-8ff2-4174-9aad-33353a8a4af5.png)
 
 # Leaving the beta program
-You can return to the stable version by disabling the beta-channel checkbox in the Settings tab, pressing `Save` and restarting Easy Diffusion.
+You can return to the stable version by:
+1. Disable the beta-channel checkbox in the Settings tab.
+2. Press `Save`.
+3. Restart Easy Diffusion.
 
 If this is not possible (for e.g. if the beta version isn't starting any more), you can leave the beta program by editing the configuration manually:
 1. In your installation directory (e.g. `C:\EasyDiffusion`), edit the `config.yaml` file using a text-editor (like Notepad).
