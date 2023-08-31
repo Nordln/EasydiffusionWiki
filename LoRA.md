@@ -10,9 +10,15 @@ This is why LoRAs are very powerful, and have become a really useful tool to gui
 1. Download the LoRA model and put them into the `models/lora` folder.
 2. Click the refresh icon ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/64d7c2a0-8f9a-4b37-8cff-6e3ba29304a0) next to the Stable Diffusion models dropdown.
 3. Select the LoRA from the dropdown in `Image Settings`, and choose how strongly it should affect the image.
+
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/24ce1c16-0c76-4141-94d2-66af03039f42)
-4. You can also add multiple LoRAs to an image, by clicking the `add another LoRA` button. You can remove a LoRA by clicking the `-` button on the left-side of the LoRA.
-5. Generate an image.
+
+4. Generate an image.
+
+## Multiple LoRA files
+You can also add multiple LoRAs to an image, by clicking the `add another LoRA` button. To remove a LoRA, please click the `-` button on the left-side of the LoRA.
+
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/66ecb01c-816e-4fad-a5dc-fd923642b7f7)
 
 ## Web Resources
 * https://civitai.com/ contains a lot of LoRA models. Filter by model type `LoRA`.
