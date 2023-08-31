@@ -1,4 +1,4 @@
-Image Modifiers are useful words that guide the AI in creating images in specific styles. For e.g. by including `line art` in your input prompt, it'll guide the AI to make images that look like they've been drawn by an ink pen.
+Image Modifiers are a collection of useful words that guide the AI in creating images in specific styles. For e.g. by including `line art` in your input prompt, it'll guide the AI to make images that look like they've been drawn by an ink pen.
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/fffc2bbb-1bb1-4034-aa7f-1164faf0d21f)
 
