@@ -1,4 +1,4 @@
-## Basics
+## Basic topics
 *  [Installation](https://github.com/easydiffusion/easydiffusion#installation)
 *  [[How to Use]]
 *  [[Writing Prompts]]
@@ -7,7 +7,7 @@
 *  [[Summary of every UI option|UI Overview]]
 *  [[Troubleshooting]]
 
-## Intermediate
+## Intermediate topics
 *  [[Custom Models]]
 *  [[Embeddings]]
 *  [[LoRA]]
@@ -17,7 +17,7 @@
 *  [[xFormers]]
 *  [[The beta channel]]
 
-## Advanced
+## Advanced topics
 *  [[UI Plugins]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
