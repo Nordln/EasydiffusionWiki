@@ -8,7 +8,7 @@ Easy Diffusion automatically runs on multiple GPUs by default (if your PC has mu
 ## How can I use this?
 Easy Diffusion will automatically run on multiple GPUs, if you PC has multiple GPUs. No action is required on your part.
 
-If you want to manually choose which GPUs are used for generating images, you can open the `Settings` tab and disable `Automatically pick the GPUs`.
+If you want to manually choose which GPUs are used for generating images, you can open the `Settings` tab and disable `Automatically pick the GPUs`, and then manually select the GPUs to use. You can keep Ctrl or Shift pressed to pick more than one GPU.
 
 ## Why don't I see this option in the Settings tab?
 This multi-GPU option will be visible in the UI only if you have more than 1 GPU. Once you change your GPU settings, please press the Save button.
