@@ -81,7 +81,7 @@
 * **GPU Memory Usage**: *Low*, *Balanced*, and *High*. Increasing levels generate images faster, but uses additional GPU memory.
 
 * **Use CPU (not GPU)**: Will generate images using the CPU. Nearly 20 times slower compared to using a graphics card.
-  * **Automatically pick the GPUs (experimental)**: Visible only if you have multiple GPUs. Will pick the GPUs automatically based on their processing power and free memory.
+  * **Automatically pick the GPUs**: Visible only if you have multiple GPUs. Will pick the GPUs automatically based on their processing power and free memory.
   * **GPUs to use**: Visible only if you have multiple GPUs, and want to manually select which GPUs to use for generating images.
 
 * **Auto-Save Settings**: Saves your settings, so that they're preserved even if you restart your browser.
