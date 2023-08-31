@@ -1,4 +1,4 @@
-## Basic topics
+## Basics
 *  [Installation](https://github.com/easydiffusion/easydiffusion#installation)
 *  [[How to Use]]
 *  [[Writing Prompts]]
@@ -7,7 +7,7 @@
 *  [[Summary of every UI option|UI Overview]]
 *  [[Troubleshooting]]
 
-## Intermediate topics
+## Intermediate
 *  [[Custom Models]]
 *  [[Embeddings]]
 *  [[LoRA]]
