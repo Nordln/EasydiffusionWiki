@@ -18,25 +18,33 @@
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/3dfe1cf6-2d50-4b68-b1cd-7549da691160)
 
-## Image Settings
-**Seed**: A number that will be used to randomize your image. 
+* **Seed**: A number that will be used to randomize your image. If you use the same number, the same image will be generated.
 
-**Number of Images**: 
+* **Number of Images**: 
   * (total): How many images are to be generated in total.
   * (in parallel): How many images are to be generated at the same time.
 
-**Model**: Select a data model which will be used to determine how to render your image.
+* **Model**: Select the Stable Diffusion model which will be used to determine how to render your image. You can read more about [[custom models]].
 
-**Custom VAE**: Selecting a `Variational Auto Encoder`.
+* **Clip Skip**: Advanced topic. Read more about [[Clip Skip]].
 
-**Image Size**: Select what the resolution of the image should be.
+* **ControlNet Image**: Advanced topic. Read more about [[ControlNet]].
 
-**Inference Steps**: Stable Diffusion works by generating images in multiple attempts. The number of attempts is what's called `Inference Steps`. 
-[Example](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-steps-parameter)
+* **Custom VAE**: Advanced topic. Read more about [[VAE Variational Auto Encoder]].
 
-**Guidance Scale**: Controls how much the image generation should follow the prompt. [Example](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-guidance-scale-parameter)
+* **Sampler**: The technique used by the AI to create the image. Read more about [[Samplers]].
 
-**Output Format**: To select the file format of the rendered image. Can be either `JPEG` or `PNG`.
+* **Image Size**: Select what the resolution of the image should be. You can click the ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/6897a367-0754-4e7c-b8d1-026ad01df9b6) icon to edit the image size or select common image sizes. You can click the ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/683b1799-5ad7-4fed-a8d4-7d5af82d4f84) icon to exchange the width and height values.
+
+* **Inference Steps**: Stable Diffusion works by generating images in multiple steps. The number of steps is what's called `Inference Steps`. The more steps you draw, the more the AI gets to modify the image. Read more about [inference steps](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-steps-parameter).
+
+* **Guidance Scale**: Controls how strongly the AI should follow your prompt. Read more about [guidance scale](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-guidance-scale-parameter).
+
+* **LoRA**: Select the LoRA model to use, and change the number to alter the strength of its effect. Read more about [[LoRA]].
+
+* **Seamless Tiling**: Generates repeatable images, for e.g. for repeating textures in games or artwork as backgrounds. Read more about [[Seamless Tiling]].
+
+* **Output Format**: To select the file format of the rendered image. Can be either `JPEG`, `WEBP`, or `PNG`.
 
 ## Render Settings
 
