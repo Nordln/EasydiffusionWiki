@@ -34,7 +34,7 @@
 
 * **Sampler**: The technique used by the AI to create the image. Read more about [[Samplers]].
 
-* **Image Size**: Select what the resolution of the image should be. You can click the settings icon (![image](https://github.com/easydiffusion/easydiffusion/assets/844287/6897a367-0754-4e7c-b8d1-026ad01df9b6)) to edit the image size or select common image sizes. You can click the exchange icon (![image](https://github.com/easydiffusion/easydiffusion/assets/844287/683b1799-5ad7-4fed-a8d4-7d5af82d4f84)) to exchange the width and height values.
+* **Image Size**: Select what the resolution of the image should be. You can click the settings icon ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/6897a367-0754-4e7c-b8d1-026ad01df9b6) to edit the image size or select common image sizes. You can click the exchange icon ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/683b1799-5ad7-4fed-a8d4-7d5af82d4f84) to exchange the width and height values.
 
 * **Inference Steps**: Stable Diffusion works by generating images in multiple steps. The number of steps is what's called `Inference Steps`. The more steps you draw, the more the AI gets to modify the image. Read more about [inference steps](https://getimg.ai/guides/interactive-guide-to-stable-diffusion-steps-parameter).
 
