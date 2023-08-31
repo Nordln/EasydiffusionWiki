@@ -16,7 +16,7 @@ You can also follow the same process to add negative embeddings. This will tell 
 Expand the `Negative Prompt` section, then click `+ Negative Embedding`, and follow the same steps as mentioned above.
 
 ## Tips
-You can also just type the embedding word directly in the prompt, without using the Embeddings popup window. Type the embedding model filename (without the extension). E.g. `cat-toy` if the embedding filename is `models/embeddings/cat-toy.pt`. Please replace any spaces in the filename with underscore `_`.
+You can also just type the embedding word directly in the prompt, without using the Embeddings popup window. Type the embedding model filename (without the extension). E.g. `cat-toy` if the embedding filename is `cat-toy.pt`. Please replace any spaces in the filename with underscore `_`.
 
 ## Web Resources
 * https://civitai.com/ contains a lot of Embedding models. Filter by model type `Embedding`.
