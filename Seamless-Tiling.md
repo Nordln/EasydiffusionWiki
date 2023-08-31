@@ -1,6 +1,6 @@
 **Seamless Tiling** refers to the technique of creating a visually continuous pattern that can be repeated indefinitely without any noticeable seams or borders between the tiles.
 
-This is useful in making repeating textures for games, repeating backgrounds for posters, wallpapers etc.
+This is useful in making repeating textures for games, backgrounds for posters, wallpapers etc.
 
 With Easy Diffusion, you can create tiles which you can place next to themselves.
 
