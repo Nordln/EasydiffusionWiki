@@ -6,6 +6,8 @@ Click on a particular modifier to add it to your image. Click a selected modifie
 
 The modifiers are organized into categories, so please explore the different styles available.
 
+## Options
+
 **Cogwheel Icon**: To define custom image modifiers. You can read more about custom modifiers at [this link](https://github.com/easydiffusion/easydiffusion/wiki/Custom-Modifiers).
 
 **Image Style**: To change the type of icon for the pre-defined modifiers.
