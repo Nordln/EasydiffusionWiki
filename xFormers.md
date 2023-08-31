@@ -10,7 +10,7 @@
 or use the [command generator](https://pytorch.org/get-started/locally/) (at the top of the page) from pytorch. That should be enough, you can now start Easy Diffusion like normal.
 
 # Removing/uninstalling xFormers
-If you face an issues, please rollback by:
+If you face any issues, please rollback by:
 1. Double-click `Developer Console.cmd` (on Windows) or run `./developer_console.sh` (on Linux/Mac)
 2. Run `python -m pip uninstall xformers`
 3. Optionally, revert the `torch` and `torchvision` version to what you had previously:
