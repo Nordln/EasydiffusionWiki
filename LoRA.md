@@ -10,7 +10,7 @@ You can also mix multiple LoRA files at different strengths dynamically, which y
 This is why LoRAs are very powerful, and have become a really useful tool to guide the AI towards particular styles, faces, objects, and images.
 
 ## How to use
-1. Download the LoRA model and put them into the `models/lora` folder.
+1. Download the LoRA model file and put it into the `models/lora` folder.
 2. Click the refresh icon ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/64d7c2a0-8f9a-4b37-8cff-6e3ba29304a0) next to the Stable Diffusion models dropdown.
 3. Select the LoRA from the dropdown in `Image Settings`, and choose how strongly it should affect the image.
 
