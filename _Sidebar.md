@@ -1,8 +1,10 @@
 ## Basics
+*  [Installation](https://github.com/easydiffusion/easydiffusion#installation)
 *  [[How to Use]]
 *  [[UI Overview]]
 *  [[Writing Prompts]]
 *  [[Inpainting]]
+*  [[Samplers]]
 *  [[Troubleshooting]]
 
 ## Intermediate
