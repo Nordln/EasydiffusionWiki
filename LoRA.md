@@ -3,7 +3,7 @@
 ## Why are LoRA files useful?
 Before LoRAs were invented, people trained new Stable Diffusion models for each new concept or styles (with new training images). Each Stable Diffusion model is between 2 to 4 GB in size, so this was not very efficient (for disk space, especially with hundreds of styles).
 
-LoRAs, by contrast, are often between 10 to 100 MB in size (i.e. nearly 100 times smaller), and only contain the changes to be applied to a Stable Diffusion model. This means you can use the same 2 GB Stable Diffusion model, and apply different 10 MB LoRA files to alter the style of the generated images. And the result is often the same as creating an entirely new 2 GB Stable Diffusion model.
+LoRA models, by contrast, are often between 10 to 100 MB in size (i.e. nearly 100 times smaller), and only contain the changes to be applied to a Stable Diffusion model. This means you can use the same 2 GB Stable Diffusion model, and apply different 10 MB LoRA files to alter the style of the generated images. And the result is often the same as creating an entirely new 2 GB Stable Diffusion model.
 
 This is why LoRAs are very powerful, and have become a really useful tool to guide the AI towards particular styles, faces, objects, images.
 
