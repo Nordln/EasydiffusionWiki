@@ -6,6 +6,7 @@
 *  [[UI Overview]]
 *  [[Writing Prompts]]
 *  [[Inpainting]]
+*  [[Samplers]]
 *  [[Troubleshooting]]
 
 ## Intermediate
