@@ -7,7 +7,7 @@ They do, however, consume more GPU and system RAM, so please experiment with you
 
 ### How to use SDXL:
 1. Download whichever SDXL model you want:
-* Base model (works for text-to-image, image-to-image, and inpainting): [base model download link](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)
+* Base model (works for text-to-image, image-to-image, and inpainting): [base model download link](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0_0.9vae.safetensors)
 * Refiner model (image-to-image only): [refiner model download link](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)
 2. Save the model to the `models/stable-diffusion` folder.
 
