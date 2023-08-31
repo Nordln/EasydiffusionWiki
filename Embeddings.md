@@ -1,4 +1,4 @@
-Embeddings (or *textual inversion embeddings*) are small models that can teach the AI new words (along with their meaning). This is useful if you want the AI to draw specific concepts, or faces, or things. It's also useful if you want the AI to *avoid* specific concepts or things.
+**Embeddings** (or *textual inversion embeddings*) are small models that can teach the AI new words (along with their meaning). This is useful if you want the AI to draw specific concepts, or faces, or things. It's also useful if you want the AI to *avoid* specific concepts or things.
 
 An embedding can be used as a word in the prompt (or negative prompt) used to make an image. You can use multiple embeddings in the same prompt.
 
