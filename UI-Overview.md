@@ -60,32 +60,38 @@
 
 # Settings
 
-![image](https://user-images.githubusercontent.com/844287/227230807-58edc7a0-5744-48c6-a6bb-3b06b21e8c8e.png)
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/6c5d520e-b6fe-493c-9535-4a83ec1736b6)
 
-**Theme**: A color theme for the UI.
+* **Theme**: A color theme for the UI.
 
-**Auto-Save Images**: Automatically saves images and a .txt-file with the settings to your specified location.
+* **Auto-Save Images**: Automatically saves the generated images (and optionally the settings used) to a folder in your PC.
+  * **Save Location**: The folder where the images will be saved.
+  * **Metadata format**: The format to optionally save the settings used to generate the image. Options: `none` (i.e. metadata won't be saved), `txt` (a plain text file), `json`, `embed` (i.e. embed it in the image file), `embed & txt`, and `embed & json`.
 
-**Save Location**: A folder for where images will save.
+* **Block NSFW images**: Blurs images with nudity or content that's not suitable for everyone to see. This will download an AI model the first time you use it, to help with NSFW detection.
 
-**Enable Sound**: Plays a sound when a task is completed.
+* **Enable Sound**: Plays a sound when all pending tasks have been completed.
 
-**Open browser on startup**: Starts the default browser on startup with http://localhost:9000/ as URL.
+* **Process newest jobs first**: Reverses the normal processing order.
 
-**VRAM Usage Level**: *Low*, *Balanced*, and *High*. Increasing levels generate images faster, but uses additional GPU memory.
+* **Extract LoRA tags from the prompt**: Automatically extract lora tags like <lora:name:0.4> from the prompt, and apply the correct LoRA (if present).
 
-**Use CPU (not GPU)**: Will force CPU-Rendering. Very slow compared to GTX/RTX-Cards.
+* **Open browser on startup**: Starts the default browser on startup with http://localhost:9000/ as URL.
 
-**Automatically pick the GPUs (experimental)**: Will select a GPU automatically.
+* **GPU Memory Usage**: *Low*, *Balanced*, and *High*. Increasing levels generate images faster, but uses additional GPU memory.
 
-**GPUs to use**: A list of available GPUs including the CUDA-ID.
+* **Use CPU (not GPU)**: Will generate images using the CPU. Nearly 20 times slower compared to using a graphics card.
+  * **Automatically pick the GPUs (experimental)**: Visible only if you have multiple GPUs. Will pick the GPUs automatically based on their processing power and free memory.
+  * **GPUs to use**: Visible only if you have multiple GPUs, and want to manually select which GPUs to use for generating images.
 
-**Use Full Precision**: Will use more GPU Memory, required for NVIDIA GTX 1650/1660.
+* **Auto-Save Settings**: Saves your settings, so that they're preserved even if you restart your browser.
+  * **Configure**: Opens a menu to set which settings will be saved automatically.
 
-**Auto-Save Settings**: Restores Settings on browser load.
-  * Configure: Opens a menu to set which settings are stored.
+* **Profile Name**: Use this to have different settings for different users.
 
-**Beta Channel**: Get the latest features immediately with the downside of decreased stability. Please restart the program after changing this.
+* **Beta Channel**: Get the latest features under development immediately, but they might contain a few bugs. Please press `Save` and restart the program after changing this.
+
+* **Use the new v3 engine**: Use version 3 of Easy Diffusion's engine, which contains the latest features like SDXL, ControlNet, LoRAs etc. Disable this to use the older version 2 engine. Please press `Save` and restart the program after changing this.
 
 # Buttons in the rendered image 
 This is visible if the user hovers with the mouse over a rendered image.
