@@ -93,26 +93,26 @@
 
 * **Use the new v3 engine**: Use version 3 of Easy Diffusion's engine, which contains the latest features like SDXL, ControlNet, LoRAs etc. Disable this to use the older version 2 engine. Please press `Save` and restart the program after changing this.
 
-# Buttons in the rendered image 
+# Buttons on the generated image 
 This is visible if the user hovers with the mouse over a rendered image.
 
-![image](https://user-images.githubusercontent.com/2499585/200590572-b2ef2d74-1a5d-4394-8899-47c8578bedf1.png)
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/bc17b3c8-b5f7-4454-96cf-0457741e6aa2)
 
-**Seed**: The seed this particular image used.
+* **Seed**: The seed this particular image used.
 
-**Use as Input**: Uses the image as Input for img2img.
+* **Use as Input**: Sets this image as the initial image to use for the next task.
 
-**Download**: Downloads the image.
+* **Use for ControlNet**: Sets this image as the image to use for ControlNet. Read more about [[ControlNet]].
 
-**Make Similar Images**: Enqueues a task using this image for img2img and generates 5 images.
+* **Download**: Downloads the image, or the settings used to generate the image (in the JSON format).
 
-**Draw another 25 steps**: Enqueues a task using the the settings of that image and increases the Inference Step Count by 25.
+* **Make Similar Images**: Generates 5 images that look similar to this image.
 
-**Upscale**: Re-Renders the image with 4x-Upscaling enabled. Visible if images wasn't already upscaled.
+* **Draw another 25 steps**: Generates the same image for another 25 inference steps.
 
-**Fix Faces**: Fixes incorrect faces and eyes using GFPGAN.
+* **Upscale**: Scales up the resolution of the generated image by 2x or 4x (based on what's selected in `Image Settings`).
 
-# NSFW Filter
-You can prevent NSFW images from being displayed by enabling the `Blur NSFW` option in the Settings tab.
+* **Fix Faces**: Fixes incorrect faces and eyes (using the model selected in `Image Settings`).
 
-![image](https://user-images.githubusercontent.com/844287/236732669-4996a782-04c1-4d57-b2c2-e49e43c563dd.png)
+* **Download tiled image**: Creates an image with repeating copies of the generated image. You can configure the number of times the image will repeat.
+
