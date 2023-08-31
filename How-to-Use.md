@@ -14,20 +14,6 @@ When loaded this is what it should look like:
 * You can click `Use as Input` on a generated image, to use it as the input image for your next generation. This can be useful for sequentially refining the generated image with a single click.
 * Images with the same aspect ratio of your generated image work best. E.g. 1:1 if you're generating images sized 512x512.
 
-## Samplers
-
-Here is a rough overview of the behaviors of different sampler implementations:
-
-[![SD](https://user-images.githubusercontent.com/7282547/222912410-32e65aef-317f-4f35-89bd-45d92569c317.jpg)](https://user-images.githubusercontent.com/7282547/222912410-32e65aef-317f-4f35-89bd-45d92569c317.jpg)
-
-Most samplers are deterministic. If re-run with the same seed and settings, it will generate the same image. You can also increase the step size to see if artifacts in the image clear up, but it may be a slightly different image.
-
-Note that **Ancestral** sampler, `euler_a`, `dpm2_a` and `dpmpp_2s_a` are *not always* deterministic. They can create different images when run in different batch sizes. 
-`dpm_adaptive` use an automatic steps count algorithm, ignoring the user Inference Steps setting.
-
-[![SD2](https://user-images.githubusercontent.com/7282547/222918227-052d5c8f-f6db-4bcb-bfe8-2902228171db.jpg)](https://user-images.githubusercontent.com/7282547/222918227-052d5c8f-f6db-4bcb-bfe8-2902228171db.jpg)
-
-[![SD-full2_small](https://user-images.githubusercontent.com/7282547/222985489-b14b160f-ea79-464f-80f7-45092f5b35f9.jpg)](https://user-images.githubusercontent.com/7282547/222985489-b14b160f-ea79-464f-80f7-45092f5b35f9.jpg)
 
 # Troubleshooting
 Please try the common [troubleshooting](https://github.com/cmdr2/stable-diffusion-ui/wiki/Troubleshooting) steps. If that doesn't fix it, please ask on the [discord server](https://discord.com/invite/u9yhsFmEkB), or [file an issue](https://github.com/cmdr2/stable-diffusion-ui/issues).
