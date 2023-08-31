@@ -12,7 +12,7 @@
 
 # Image Settings
 
-![image](https://user-images.githubusercontent.com/110454200/218768343-8a1b74f1-2bc4-4bab-afce-94d470d8cc34.png)
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/cc06f3c5-adb7-4280-bfae-d91561f0b508)
 
 ## Image Settings
 **Seed**: A number that will be used to randomize your image. 
