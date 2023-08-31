@@ -1,5 +1,7 @@
 SDXL models are trained to create larger images with better image quality. They can also make good images at 512x512 resolution, so they're often a good replacement for SD 1 or 2 models, in terms of image quality.
 
+They do, however, consume more GPU and system RAM, so please experiment with your image sizes and VRAM usage level setting (in the Settings tab) while using SDXL models.
+
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/e736bd91-f3ab-4eb9-98e5-5e5d60d227c1)
 
 
