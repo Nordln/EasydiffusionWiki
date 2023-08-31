@@ -2,13 +2,17 @@
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/ad9e8d5f-44f4-44ed-8da9-5b45c3e44ea1)
 
-**Prompt**: Describe the image that you want to create. E.g. `photograph of an astronaut riding a horse`.
+* **Prompt**: Describe the image that you want to create. E.g. `photograph of an astronaut riding a horse`.
 
-**Load from a file** (optional): Load a prompt from a .txt file. This is useful for creating multiple tasks. Please put one prompt per line.
+* **Load from a file** (optional): Load a prompt from a .txt file. This is useful for creating multiple tasks. Please put one prompt per line.
 
-**Negative Prompt** (optional): Describe what to *avoid* when rendering your image. E.g. `bad hands, grainy, fog`.
+* **Negative Prompt** (optional): Describe what to *avoid* when rendering your image. E.g. `bad hands, grainy, fog`.
 
-**Initial Image** (optional): Choose an image from your PC (or paste an image), to describe to the AI visually. The AI will try to create a similar image. Choose an image from your computer.
+* **Initial Image** (optional): Choose an image from your PC (or paste an image), to describe to the AI visually. The AI will try to create a similar image. Choose an image from your computer.
+
+* **Image Modifiers** (optional): A collection of useful words that guide the AI to make images in a particular style, e.g. "line art". You can read more about Image Modifiers at [this link](https://github.com/easydiffusion/easydiffusion/wiki/Image-Modifiers).
+
+* **Embeddings** (optional): A collection of words whose meaning you can customize by downloading special files to the `models/embeddings` folder. You can read more about Embeddings at [this link](https://github.com/easydiffusion/easydiffusion/wiki/Embeddings).
 
 # Image Settings
 
@@ -43,18 +47,6 @@
 **Upscale image by 4x**: Uses [RealESRGAN](https://github.com/xinntao/Real-ESRGAN) to upscale the final image to 4x the size (512x512 will be 2048x2048)
   * RealESRGAN_x4plus is general-purpose
   * RealESRGAN_x4plus_anime_6B is optimized for anime
-
-# Image Modifiers
-
-![image](https://user-images.githubusercontent.com/110454200/213927607-9a4323cb-4178-4645-9645-43bf768641f4.png)
-
-**Cogwheel Icon**: To define custom image modifiers.
-
-**Image Style**: To change the type of icon for the pre-defined modifiers.
-  * Face: Shows faces for the icons in the style of the modifiers.
-  * Landscapes: Shows landscapes for the icons in the style of the modifiers.
-
-**Thumbnail Size**: A slider to change the size of the clickable modifiers.
 
 # Settings
 
