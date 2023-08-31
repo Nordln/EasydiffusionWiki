@@ -7,7 +7,7 @@ LoRA models, by contrast, are often between 10 to 100 MB in size (i.e. nearly 10
 
 You can also mix multiple LoRA files at different strengths dynamically, which you can't do easily with custom Stable Diffusion models.
 
-This is why LoRAs are very powerful, and have become a really useful tool to guide the AI towards particular styles, faces, objects, images.
+This is why LoRAs are very powerful, and have become a really useful tool to guide the AI towards particular styles, faces, objects, and images.
 
 ## How to use
 1. Download the LoRA model and put them into the `models/lora` folder.
