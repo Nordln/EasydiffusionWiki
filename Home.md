@@ -12,6 +12,7 @@
 
 ## Intermediate
 *  [[Custom Models]]
+*  [[Advanced Prompts (weights, emphasis etc)|Advanced Prompts]]
 *  [[Embeddings]]
 *  [[LoRA]]
 *  [[SDXL]]
