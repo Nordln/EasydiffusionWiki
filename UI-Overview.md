@@ -48,11 +48,11 @@
 
 ## Render Settings
 
-**Show a live preview**: Shows a live preview of the image while it's rendering. Otherwise the image will only be displayed when the image has finished rendering. This is off by default.
+* **Show a live preview**: Shows a live preview of the image while it's rendering. Otherwise the image will only be displayed when the image has finished rendering. This is off by default.
 
-**Fix incorrect faces and eyes**: Uses GFPGAN - a face restauration algorithm to fix glitches in faces & eyes.
+* **Fix incorrect faces and eyes**: Uses GFPGAN or CodeFormer - a face restauration algorithm to fix glitches in faces & eyes.
 
-**Upscale image by 4x**: Uses [RealESRGAN](https://github.com/xinntao/Real-ESRGAN) to upscale the final image to 4x the size (512x512 will be 2048x2048)
+* **Upscale image**: Uses [RealESRGAN](https://github.com/xinntao/Real-ESRGAN) or [Latent Upscale](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/latent_upscale) to increase the resolution of the final image by 2x or 4x (i.e. 512x512 will be 2048x2048)
   * RealESRGAN_x4plus is general-purpose
   * RealESRGAN_x4plus_anime_6B is optimized for anime
 
