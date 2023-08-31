@@ -1,7 +1,7 @@
 **LoRAs** are small models that can alter the style or behavior of the Stable Diffusion AI model. It can make the same Stable Diffusion model make drastically different styles of images, with control over how much the LoRA affects the image.
 
 ## Why are LoRA files useful?
-Before LoRAs were created, people trained new Stable Diffusion models for each new concept or styles (with new training images). Each Stable Diffusion model is between 2 to 4 GB in size, so this was not very efficient (for disk space, especially with hundreds of styles).
+Before LoRAs were invented, people trained new Stable Diffusion models for each new concept or styles (with new training images). Each Stable Diffusion model is between 2 to 4 GB in size, so this was not very efficient (for disk space, especially with hundreds of styles).
 
 LoRAs, by contrast, are often between 10 to 100 MB in size (i.e. nearly 100 times smaller), and only contain the changes to be applied to a Stable Diffusion model. This means you can use the same 2 GB Stable Diffusion model, and apply different 10 MB LoRA files to alter the style of the generated images. And the result is often the same as creating an entirely new 2 GB Stable Diffusion model.
 
