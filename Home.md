@@ -4,6 +4,7 @@
 *  [Installation](https://github.com/easydiffusion/easydiffusion#installation)
 *  [[How to Use]]
 *  [[Writing Prompts]]
+*  [[Image Modifiers]]
 *  [[Inpainting]]
 *  [[Samplers]]
 *  [[Summary of every UI option|UI Overview]]
