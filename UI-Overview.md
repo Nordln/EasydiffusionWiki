@@ -1,4 +1,4 @@
-# Prompt and Base Image
+# Input
 
 ![image](https://github.com/easydiffusion/easydiffusion/assets/844287/ad9e8d5f-44f4-44ed-8da9-5b45c3e44ea1)
 
