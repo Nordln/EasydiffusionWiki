@@ -1,14 +1,14 @@
 # Prompt and Base Image
 
-![image](https://user-images.githubusercontent.com/110454200/213925096-dd1a38f4-9c4d-4c44-abbd-b16177f96c1f.png)
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/ad9e8d5f-44f4-44ed-8da9-5b45c3e44ea1)
 
-**Prompt**: A textual prompt. Enter something here for stable diffusion to render.
+**Prompt**: Describe the image that you want to create. E.g. `photograph of an astronaut riding a horse`.
 
-**Load from a file**: Load a textual prompt from a .txt file - one prompt per line.
+**Load from a file** (optional): Load a prompt from a .txt file. This is useful for creating multiple tasks. Please put one prompt per line.
 
-**Negative Prompt**: A textual prompt that stable diffusion will try to avoid when rendering your image.
+**Negative Prompt** (optional): Describe what to *avoid* when rendering your image. E.g. `bad hands, grainy, fog`.
 
-**Initial Image**: Stable-Diffusion will use an existing `Initial Image` to generate your image. Choose an image from your computer.
+**Initial Image** (optional): Choose an image from your PC (or paste an image), to describe to the AI visually. The AI will try to create a similar image. Choose an image from your computer.
 
 # Image Settings
 
