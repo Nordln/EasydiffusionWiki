@@ -8,7 +8,7 @@
 *  [[Inpainting]]
 *  [[Samplers]]
 *  [[Summary of every UI option|UI Overview]]
-*  [[Common error messages|Troubleshooting]]
+*  [[Common error messages (and solutions)|Troubleshooting]]
 
 ## Intermediate
 *  [[Custom Models]]
