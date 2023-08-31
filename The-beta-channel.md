@@ -1,6 +1,6 @@
 The beta version includes new features that we're working on. This gives you access to the latest features as they're being developed, often weeks before they're announced. But these new features may contain a few bugs, since they're still under development.
 
-If you want to report any bugs (or feedback), please report them to `#beta` on our [discord community](https://discord.com/invite/u9yhsFmEkB).
+If you're using the beta version, and want to report any bugs (or feedback), please report them to `#beta` on our [discord community](https://discord.com/invite/u9yhsFmEkB).
 
 # Joining
 To join the beta program, please follow these steps:
