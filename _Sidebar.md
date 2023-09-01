@@ -11,6 +11,7 @@
 ## Intermediate
 *  [[Custom Models]]
 *  [[Prompt Syntax]]
+*  [[UI Plugins]]
 *  [[Embeddings]]
 *  [[LoRA]]
 *  [[SDXL]]
@@ -20,7 +21,6 @@
 *  [[The beta channel]]
 
 ## Advanced topics
-*  [[UI Plugins]]
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
 *  [[Custom Modifiers]]
