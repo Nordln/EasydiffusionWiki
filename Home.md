@@ -26,6 +26,7 @@
 *  [[Run on Multiple GPUs]]
 *  [[Model Merging]]
 *  [[Custom Modifiers]]
+*  [[Config settings]]
 
 ## Misc
 * [Glossary of Stable Diffusion related terms](https://theally.notion.site/The-Definitive-Stable-Diffusion-Glossary-1d1e6d15059c41e6a6b4306b4ecd9df9)
