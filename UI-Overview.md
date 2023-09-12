@@ -68,7 +68,7 @@
   * **Save Location**: The folder where the images will be saved.
   * **Metadata format**: The format to optionally save the settings used to generate the image. Options: `none` (i.e. metadata won't be saved), `txt` (a plain text file), `json`, `embed` (i.e. embed it in the image file), `embed & txt`, and `embed & json`.
 
-* **Block NSFW images**: Blurs images with nudity or content that's not suitable for everyone to see. This will download an AI model the first time you use it, to help with NSFW detection.
+* **Block NSFW images**: Blurs images with nudity or content that's not suitable for everyone to see. This will download an AI model the first time you use it, to help with NSFW detection.  You can force this to remain on at the server level, regardless of the setting in the UI, by adding `block_nsfw: true` to the config.yaml configuration file.
 
 * **Enable Sound**: Plays a sound when all pending tasks have been completed.
 
