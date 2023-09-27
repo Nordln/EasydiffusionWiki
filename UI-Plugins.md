@@ -32,7 +32,7 @@ If not stated otherwise in the plugin description, right click on the plugin lin
 - **Down the Rabbit Hole by [Andrew Nuttall](https://andrewjnuttall.com)**
 
     Generates a grid of prompts to run against. Can be used to step through Inference Steps, samplers, Guidance Scales or all modifiers.
-    More information and download is [here.](https://andrewjnuttall.com/blog/nuttalls-stable-diffusion-ui-plugin/)
+    More information and download is [here.](https://github.com/AssassinJN/Rabbit-Hole-UI) or through Plugin Manager plugin.
 
 ### General UI changes
 - **[History](https://raw.githubusercontent.com/rbertus2000/sd-ui-plugins/main/history.plugin.js) by [rbertus2000](https://github.com/rbertus2000)**
