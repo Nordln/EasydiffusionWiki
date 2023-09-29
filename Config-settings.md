@@ -16,6 +16,21 @@ ui:
 ```
 Please note that indentation is important and the space characters in front of `open_browser_on_start` are required.
 
+## Prevent users from changing the folder path to save images
+This is useful if you're sharing Easy Diffusion over the network, and want to prevent users from changing the folder in which images will be saved.
+
+To do so, please edit `config.yaml` and add the `force_save_path` entry:
+```yaml
+force_save_path: F:/path/to/save/in
+```
+
+You can also save metadata by default, by setting the `force_save_metadata` entry:
+```yaml
+force_save_metadata: json
+```
+
+`force_save_metadata` can take one of the following values: `json`, `txt`, `embed`, `embed,txt`, `embed,json`
+
 # Runtime settings
 The runtime settings are stored in the following files:
 * `config.yaml`
