@@ -1,4 +1,6 @@
 # Access permissions
+### If you use the Integrated graphics, please skip this setting! This will result in the error!
+
 Easy Diffusion needs access to the GPU devices to use them for computations.
 1. Check the owner of one of these devices:
     ```sh
