@@ -7,6 +7,12 @@ NVIDIA drivers after version 532 use the system RAM as shared memory (which is v
 
 If you're on the latest NVIDIA driver, you can disable this behavior in the driver settings to prevent Easy Diffusion from using shared memory. That setting will be only for Easy Diffusion, it won't affect other programs.
 
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/d7aa8810-9699-4608-b14f-a10f6e11819c)
+
+
+![image](https://github.com/easydiffusion/easydiffusion/assets/844287/92180fbf-740f-4f52-a55c-7bd3706c8c7b)
+
+
 ## RuntimeError: CUDA out of memory
 This can happen if your PC has less than 6GB of GPU RAM.
 
