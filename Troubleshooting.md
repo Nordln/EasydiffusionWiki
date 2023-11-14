@@ -1,5 +1,12 @@
 Common issues and their solutions. If these solutions don't work, please feel free to ask at the [discord server](https://discord.com/invite/u9yhsFmEkB) or [file an issue](https://github.com/cmdr2/stable-diffusion-ui/issues).
 
+## Very very slow rendering on NVIDIA cards on Windows
+Please follow these instructions at https://nvidia.custhelp.com/app/answers/detail/a_id/5490/~/system-memory-fallback-for-stable-diffusion , but use `C:\path\to\EasyDiffusion\installer_files\env\python.exe` in Step 1.
+
+NVIDIA drivers after version 532 use the system RAM as shared memory (which is very very slow). This behavior kicks in when the GPU memory is almost full (e.g. for very large images). This slows down rendering by nearly 20 times.
+
+If you're on the latest NVIDIA driver, you can disable this behavior in the driver settings to prevent Easy Diffusion from using shared memory. That setting will be only for Easy Diffusion, it won't affect other programs.
+
 ## RuntimeError: CUDA out of memory
 This can happen if your PC has less than 6GB of GPU RAM.
 
