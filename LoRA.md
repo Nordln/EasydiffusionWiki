@@ -25,3 +25,11 @@ You can also add multiple LoRAs to an image, by clicking the `add another LoRA` 
 
 ## Web Resources
 * https://civitai.com/ contains a lot of LoRA models. Filter by model type `LoRA`.
+
+## Manually using LoRAs
+
+You can include a LoRA in your prompt using the `<lora: name: weight>` format.  
+
++ `name` is the name of the LoRA model. However be aware the `name` may be different from the filename.  Refer to the documentation provided by the LoRA creator.
++ `weight` is the strength that the LoRA model will be applied. It is similar to a keyword weights. The default is 1, and setting the value to 0 disables the LoRA.
+Some LoRAs also require a `trigger` keyword to be included for the lora to be activated. Example: `<lora:PIXHELL_21:1> pixelart`
