@@ -14,6 +14,17 @@ When loaded this is what it should look like:
 * You can click `Use as Input` on a generated image, to use it as the input image for your next generation. This can be useful for sequentially refining the generated image with a single click.
 * Images with the same aspect ratio of your generated image work best. E.g. 1:1 if you're generating images sized 512x512.
 
+## Image Modifiers
+
+These are just suggestions to get you started.  Different models will give different effects, and settings that are ideal for one model may not be applicable to another.
+
+* Image Size: Start with 512x512 with SD 1.4 or 1.5 models.  With SDXL, start with 1024x1024. You can increase/decrease these slightly - often, 512x768 will still work well with SD 1.5 models, but any larger, and you'll start to see odd duplications in your results.  Use image-to-image to go larger.
+* Inference Steps: try using between 30 and 40 for most models.  For Turbo models, use between 5 and 8 to generate faster than non-Turbo models.
+* Guidance Scale: 7.5 is a good starting point, but anywhere from 5 to 15 works for many models.  For Turbo models, this should be between 1 and 5, depending upon the model.
+* Model: SDXL models can produce better results than SD 1.4 and SD 1.5 models, but require a bit more resources.
+The base SDXL model can be found here: [sd_xl_base_1.0.safetensors](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors)
+The VAE matching this SDXL model can be found here: [sd_xl_base_1.0_0.9vae.safetensors](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0_0.9vae.safetensors)
+* Sampler: Generally, you can use any sampler, but some models mostly work with one particular sampler.  For example, some Turbo models specifically require DPM++ SDE, or else results will be poorer.
 
 # Troubleshooting
 Please try the common [troubleshooting](https://github.com/cmdr2/stable-diffusion-ui/wiki/Troubleshooting) steps. If that doesn't fix it, please ask on the [discord server](https://discord.com/invite/u9yhsFmEkB), or [file an issue](https://github.com/easydiffusion/easydiffusion/issues).
