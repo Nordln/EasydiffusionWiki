@@ -24,6 +24,15 @@ Use curly brackets in prompts to try different words, e.g. the prompt `man ridin
 
 ![image](https://user-images.githubusercontent.com/5852422/196795838-88dec248-dbbc-4681-b00f-c16444e80a73.png)
 
+You can include entire portions of a prompt that include commas inside curly brackets by using the \ escape character before each comma you don't want to be treated as a variation separator. For example:
+
+`{a tall\, brown hair\, green eyed\, man, a short\, blond hair\, blue eyed\, woman} shopping at a store` will create the following two tasks:
+
+* `a tall\, brown hair\, green eyed\, man shopping at a store`
+* `a short\, blond hair\, blue eyed\, woman shopping at a store`
+
+Note that the \ escape characters while visible in the prompt, will be ignored when generating your image.
+
 **Prompt Matrix** - Separate your prompt with the `|` character to explore variations quickly. E.g. `girl holding a rose | illustration | cinematic lighting` creates four task combinations automatically: 
 
 * `girl holding a rose`
