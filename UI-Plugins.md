@@ -103,6 +103,11 @@ If not stated otherwise in the plugin description, right click on the plugin lin
     Adds a button to switch the width and height values in the Image Settings panel.
     _[Github Repo](https://github.com/ogmaresca/easydiffusion-plugins)_
 
+- **[Prompt Prompt Queue Jumper](https://gist.github.com/MorganLOCode/e2014e342598771cafd8739cf6bf3d33/raw/98f151f2afb585f117ce03747c4c02720b3883b8/queuejumper.plugin.js) by [MorganLOCode](https://github.com/MorganLOCode)**
+
+    Double-click a prompt's drag handle to send the prompt to the top of the queue. Unless it's already at the top, in which case it is sent to the bottom. Makes it easier to have prompts jump a long queue to be processed first with much less manual dexterity required than clicking-and-dragging. The top-then-bottom behaviour enables other rearrangements to be carried out.
+     _[Gist](https://gist.github.com/MorganLOCode/e2014e342598771cafd8739cf6bf3d33)_
+
 ### Information plugins
 - **[Copy Settings (JSON)](https://raw.githubusercontent.com/JeLuF/stable-diffusion-ui-plugins/main/copy-settings-json.plugin.js) by [JeLuF](https://github.com/JeLuF)**
 
